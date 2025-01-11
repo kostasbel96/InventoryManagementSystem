@@ -49,14 +49,14 @@ Run the backend:
 
 Frontend (Angular)
 
-    Navigate to the frontend directory:
+   Navigate to the frontend directory:
 
 
-cd Front-end_v16/InventoryMangmentSystem
+      cd Front-end_v16/InventoryMangmentSystem
 
 Install dependencies:
 
-npm install
+      npm install
 
 Run the frontend:
 
