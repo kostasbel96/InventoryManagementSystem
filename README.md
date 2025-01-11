@@ -91,7 +91,7 @@ Frontend Deployment
 
 📂 Project Structure
 
-InventoryManagementSystem/
+InventoryManagementSystem/\n
       ├── Back-end/                # Spring Boot backend
       │   ├── src/                 # Java source code
       │   ├── build.gradle         # Gradle build file
