@@ -1,5 +1,3 @@
-# Re-create the README.md content after execution state reset
-readme_content = """
 # Inventory Management System
 
 ## 📖 Description
