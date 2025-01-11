@@ -49,7 +49,7 @@ Run the backend:
 
 Να εμφανίζονται πάντα οι λεπτομέρειες
 
-    java -jar build/libs/inventory-managment-system.jar
+    java -jar build/libs/inventory-managment-system-0.0.1-SNAPSHOT.jar
 
     Ensure that your MySQL database is running and configured as per the application.properties or application-dev.properties files.
 
