@@ -1,0 +1,76 @@
+<div class="container mt-5">
+  <form [formGroup]="orderForm" (ngSubmit)="onSubmit()">
+    <!-- Products -->
+    <div class="form-group">
+      <label for="product">Products</label>
+      <div formArrayName="products">
+        <div *ngFor="let product of productsFormArray.controls; let i = index" [formGroupName]="i" class="mb-3">
+          <div class="d-flex align-items-center">
+            <select class="form-select me-2" formControlName="product">
+              <option [ngValue]="null" disabled>Choose a product</option>
+              <option *ngFor="let product of availableProducts" [ngValue]="product" [disabled]="isProductSelected(product)">
+                {{ product.name }}
+              </option>
+            </select>
+            <input
+              type="number"
+              formControlName="quantity"
+              class="form-control me-2"
+              placeholder="Enter quantity"
+            />
+            <button type="button" class="btn btn-danger" (click)="removeProduct(i)">Remove</button>
+          </div>
+          <div *ngIf="product.get('product')?.invalid && product.get('product')?.touched" class="text-danger">
+            Product is required.
+          </div>
+          <div *ngIf="product.get('quantity')?.invalid && product.get('quantity')?.touched" class="text-danger">
+            Quantity is required and must be at least 1.
+          </div>
+          
+        </div>
+      </div>
+      <div *ngIf="productsFormArray.length === 0 && orderForm.touched" class="text-danger">
+        You must add at least one product.
+      </div>
+      <button type="button" class="btn btn-success mb-3" (click)="addProduct()">Add Product</button>
+    </div>
+
+    <!--Προμηθευτής-->
+    <div class="form-group">
+      <label for="supplier">Supplier</label>
+      <select class="form-select" formControlName="supplier">
+        <option value="" disabled selected>Choose a supplier</option>
+        <option *ngFor="let supplier of suppliers" [ngValue]="supplier">
+          {{ supplier.name }}
+        </option>
+      </select>
+      <div *ngIf="orderForm.get('supplier')?.invalid && orderForm.get('supplier')?.touched" class="text-danger">
+        Supplier is required.
+      </div>
+    </div>
+    <!-- Submit -->
+    <button type="submit" class="btn btn-primary mt-2" [disabled]="orderForm.invalid">Submit</button>
+  </form>
+</div>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Product Submitted</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ng-container *ngIf="errorMessage; else successTemplate">
+            <span style="color: red;">{{ errorMessage }}</span>
+          </ng-container>
+          <ng-template #successTemplate>
+            The Order with id: {{ savedOrder.id }} has been successfully added!
+          </ng-template>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>  

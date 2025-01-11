@@ -1,0 +1,76 @@
+
+<div class="container mt-5">
+    <form [formGroup]="supplierForm" (ngSubmit)="onSubmit()">
+      <!-- Όνομα Προϊόντος -->
+      <div class="form-group">
+        <label for="name">Supplier Name</label>
+        <input
+          type="text"
+          id="name"
+          class="form-control"
+          formControlName="name"
+          placeholder="Enter supplier name"
+        />
+        <div *ngIf="supplierForm.get('name')?.invalid && supplierForm.get('name')?.touched" class="text-danger">
+          Supplier name is required and must be at least 3 characters long.
+        </div>
+      </div>
+
+      <!--Προμηθευτής-->
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          class="form-control"
+          formControlName="email"
+          placeholder="Enter Supplier email"
+        />
+        <div *ngIf="supplierForm.get('email')?.invalid && supplierForm.get('email')?.touched" class="text-danger">
+          Enter valid email.
+        </div>
+      </div>
+
+      <!--Κατηγορία-->
+      <div class="form-group">
+        <label for="phoneNumber">Phone number</label>
+        <input
+          type="text"
+          id="phoneΝumber"
+          class="form-control"
+          formControlName="phoneNumber"
+          placeholder="Enter phone number"
+        />
+        <div *ngIf="supplierForm.get('phoneNumber')?.invalid && supplierForm.get('phoneNumber')?.touched" class="text-danger">
+          Phone number is required and must be at least 10 digits long.
+        </div>
+      </div>
+
+  
+      <!-- Υποβολή -->
+      <button type="submit" class="btn btn-primary mt-2" [disabled]="supplierForm.invalid">Submit</button>
+    </form>
+  </div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Product Submitted</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ng-container *ngIf="errorMessage; else successTemplate">
+            <span style="color: red;">{{ errorMessage }}</span>
+          </ng-container>
+          <ng-template #successTemplate>
+            The {{ savedSupplier.name }} has been successfully added!
+          </ng-template>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>  

@@ -1,0 +1,570 @@
+2024-12-24 18:01:37 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-24 18:01:37 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 24004 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-24 18:01:37 INFO  - The following 1 profile is active: "dev"
+2024-12-24 18:01:37 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-24 18:01:37 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-24 18:01:38 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-24 18:01:38 INFO  - Finished Spring Data repository scanning in 76 ms. Found 5 JPA repository interfaces.
+2024-12-24 18:01:39 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-24 18:01:39 INFO  - Root WebApplicationContext: initialization completed in 1922 ms
+2024-12-24 18:01:39 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-24 18:01:39 INFO  - HHH000026: Second-level cache disabled
+2024-12-24 18:01:39 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-24 18:01:41 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-24 18:01:41 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 18:01:41 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-24 18:01:41 INFO  - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-24 18:01:42 INFO  - LiveReload server is running on port 35729
+2024-12-24 18:01:42 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-24 18:01:42 INFO  - Started InventoryManagmentSystemApplication in 6.103 seconds (process running for 6.7)
+2024-12-24 18:09:30 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-24 18:09:30 INFO  - Completed initialization in 2 ms
+2024-12-24 18:09:30 WARN  - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2024-12-24 18:52:16 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 18:52:20 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-24 18:52:21 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 21828 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-24 18:52:21 INFO  - The following 1 profile is active: "dev"
+2024-12-24 18:52:21 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-24 18:52:21 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-24 18:52:21 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-24 18:52:21 INFO  - Finished Spring Data repository scanning in 49 ms. Found 5 JPA repository interfaces.
+2024-12-24 18:52:22 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-24 18:52:22 INFO  - Root WebApplicationContext: initialization completed in 1373 ms
+2024-12-24 18:52:22 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-24 18:52:22 INFO  - HHH000026: Second-level cache disabled
+2024-12-24 18:52:22 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-24 18:52:24 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-24 18:52:24 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 18:52:24 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-24 18:52:24 INFO  - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-24 18:52:25 INFO  - LiveReload server is running on port 35729
+2024-12-24 18:52:25 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-24 18:52:25 INFO  - Started InventoryManagmentSystemApplication in 4.774 seconds (process running for 5.247)
+2024-12-24 18:54:01 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-24 18:54:01 INFO  - Completed initialization in 1 ms
+2024-12-24 19:06:03 WARN  - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2024-12-24 19:33:25 WARN  - Resolved [gr.aueb.cf.inventorymanagementsystem.core.exceptions.AppObjectAlreadyExists: Supplier with name Kostas Veloutsos already exists.]
+2024-12-24 19:33:30 WARN  - Resolved [gr.aueb.cf.inventorymanagementsystem.core.exceptions.AppObjectAlreadyExists: Supplier with phone number 6948674681 already exists.]
+2024-12-24 19:39:40 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 19:39:43 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-24 19:39:43 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 6112 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-24 19:39:43 INFO  - The following 1 profile is active: "dev"
+2024-12-24 19:39:44 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-24 19:39:44 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-24 19:39:44 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-24 19:39:44 INFO  - Finished Spring Data repository scanning in 62 ms. Found 5 JPA repository interfaces.
+2024-12-24 19:39:45 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-24 19:39:45 INFO  - Root WebApplicationContext: initialization completed in 1474 ms
+2024-12-24 19:39:45 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-24 19:39:45 INFO  - HHH000026: Second-level cache disabled
+2024-12-24 19:39:45 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-24 19:39:47 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-24 19:39:47 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 19:39:47 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-24 19:39:47 INFO  - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-24 19:39:48 INFO  - LiveReload server is running on port 35729
+2024-12-24 19:39:48 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-24 19:39:48 INFO  - Started InventoryManagmentSystemApplication in 4.801 seconds (process running for 5.267)
+2024-12-24 19:39:48 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-24 19:39:48 INFO  - Completed initialization in 0 ms
+2024-12-24 19:39:54 WARN  - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2024-12-24 19:40:56 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 19:40:59 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-24 19:40:59 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 9784 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-24 19:40:59 INFO  - The following 1 profile is active: "dev"
+2024-12-24 19:40:59 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-24 19:40:59 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-24 19:41:00 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-24 19:41:00 INFO  - Finished Spring Data repository scanning in 44 ms. Found 5 JPA repository interfaces.
+2024-12-24 19:41:00 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-24 19:41:00 INFO  - Root WebApplicationContext: initialization completed in 1325 ms
+2024-12-24 19:41:01 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-24 19:41:01 INFO  - HHH000026: Second-level cache disabled
+2024-12-24 19:41:01 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-24 19:41:02 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-24 19:41:02 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 19:41:02 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-24 19:41:02 INFO  - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-24 19:41:03 INFO  - LiveReload server is running on port 35729
+2024-12-24 19:41:03 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-24 19:41:03 INFO  - Started InventoryManagmentSystemApplication in 4.34 seconds (process running for 4.757)
+2024-12-24 19:41:05 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-24 19:41:05 INFO  - Completed initialization in 1 ms
+2024-12-24 19:41:15 WARN  - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2024-12-24 19:42:17 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 19:43:43 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-24 19:43:43 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 17176 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-24 19:43:43 INFO  - The following 1 profile is active: "dev"
+2024-12-24 19:43:43 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-24 19:43:43 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-24 19:43:43 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-24 19:43:44 INFO  - Finished Spring Data repository scanning in 50 ms. Found 5 JPA repository interfaces.
+2024-12-24 19:43:44 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-24 19:43:44 INFO  - Root WebApplicationContext: initialization completed in 1280 ms
+2024-12-24 19:43:44 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-24 19:43:44 INFO  - HHH000026: Second-level cache disabled
+2024-12-24 19:43:44 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-24 19:43:46 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-24 19:43:46 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 19:43:46 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-24 19:43:46 INFO  - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-24 19:43:47 INFO  - LiveReload server is running on port 35729
+2024-12-24 19:43:47 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-24 19:43:47 INFO  - Started InventoryManagmentSystemApplication in 4.371 seconds (process running for 4.844)
+2024-12-24 19:43:50 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-24 19:43:50 INFO  - Completed initialization in 0 ms
+2024-12-24 19:43:57 WARN  - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2024-12-24 21:47:50 WARN  - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/orders/search.]
+2024-12-24 21:48:33 WARN  - Request method 'GET' is not supported
+2024-12-24 21:48:33 WARN  - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-12-24 21:54:33 INFO  - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-12-24 21:54:33 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 21:54:33 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 17176 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-24 21:54:33 INFO  - The following 1 profile is active: "dev"
+2024-12-24 21:54:34 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-24 21:54:34 INFO  - Finished Spring Data repository scanning in 23 ms. Found 5 JPA repository interfaces.
+2024-12-24 21:54:34 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-24 21:54:34 INFO  - Root WebApplicationContext: initialization completed in 354 ms
+2024-12-24 21:54:34 INFO  - HHH000026: Second-level cache disabled
+2024-12-24 21:54:34 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-24 21:54:34 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-24 21:54:34 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 21:54:34 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-24 21:54:34 INFO  - LiveReload server is running on port 35729
+2024-12-24 21:54:34 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-24 21:54:34 INFO  - Started InventoryManagmentSystemApplication in 0.955 seconds (process running for 7852.396)
+2024-12-24 21:54:34 INFO  - Condition evaluation unchanged
+2024-12-24 21:59:09 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 21:59:11 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-24 21:59:11 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 13748 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-24 21:59:11 INFO  - The following 1 profile is active: "dev"
+2024-12-24 21:59:11 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-24 21:59:11 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-24 21:59:11 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-24 21:59:11 INFO  - Finished Spring Data repository scanning in 47 ms. Found 5 JPA repository interfaces.
+2024-12-24 21:59:12 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-24 21:59:12 INFO  - Root WebApplicationContext: initialization completed in 1341 ms
+2024-12-24 21:59:12 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-24 21:59:12 INFO  - HHH000026: Second-level cache disabled
+2024-12-24 21:59:12 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-24 21:59:14 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-24 21:59:14 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 21:59:14 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-24 21:59:14 INFO  - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-24 21:59:15 INFO  - LiveReload server is running on port 35729
+2024-12-24 21:59:15 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-24 21:59:15 INFO  - Started InventoryManagmentSystemApplication in 4.656 seconds (process running for 5.185)
+2024-12-24 21:59:23 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-24 21:59:23 INFO  - Completed initialization in 2 ms
+2024-12-24 21:59:23 WARN  - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2024-12-24 22:00:40 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 22:00:41 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-24 22:00:41 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 21696 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-24 22:00:41 INFO  - The following 1 profile is active: "dev"
+2024-12-24 22:00:42 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-24 22:00:42 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-24 22:00:42 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-24 22:00:42 INFO  - Finished Spring Data repository scanning in 45 ms. Found 5 JPA repository interfaces.
+2024-12-24 22:00:43 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-24 22:00:43 INFO  - Root WebApplicationContext: initialization completed in 1291 ms
+2024-12-24 22:00:43 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-24 22:00:43 INFO  - HHH000026: Second-level cache disabled
+2024-12-24 22:00:43 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-24 22:00:44 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-24 22:00:44 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 22:00:45 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-24 22:00:45 INFO  - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-24 22:00:45 INFO  - LiveReload server is running on port 35729
+2024-12-24 22:00:45 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-24 22:00:45 INFO  - Started InventoryManagmentSystemApplication in 4.382 seconds (process running for 4.852)
+2024-12-24 22:00:52 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-24 22:00:52 INFO  - Completed initialization in 2 ms
+2024-12-24 22:00:52 WARN  - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2024-12-24 22:02:56 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 22:02:59 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-24 22:02:59 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 13232 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-24 22:02:59 INFO  - The following 1 profile is active: "dev"
+2024-12-24 22:02:59 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-24 22:02:59 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-24 22:03:00 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-24 22:03:00 INFO  - Finished Spring Data repository scanning in 46 ms. Found 5 JPA repository interfaces.
+2024-12-24 22:03:00 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-24 22:03:00 INFO  - Root WebApplicationContext: initialization completed in 1294 ms
+2024-12-24 22:03:00 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-24 22:03:00 INFO  - HHH000026: Second-level cache disabled
+2024-12-24 22:03:01 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-24 22:03:02 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-24 22:03:02 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 22:03:02 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-24 22:03:02 INFO  - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-24 22:03:03 INFO  - LiveReload server is running on port 35729
+2024-12-24 22:03:03 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-24 22:03:03 INFO  - Started InventoryManagmentSystemApplication in 4.476 seconds (process running for 4.918)
+2024-12-24 22:03:07 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-24 22:03:07 INFO  - Completed initialization in 0 ms
+2024-12-24 22:03:07 WARN  - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2024-12-24 22:03:35 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 22:03:38 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-24 22:03:38 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 1716 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-24 22:03:38 INFO  - The following 1 profile is active: "dev"
+2024-12-24 22:03:38 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-24 22:03:38 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-24 22:03:38 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-24 22:03:38 INFO  - Finished Spring Data repository scanning in 47 ms. Found 5 JPA repository interfaces.
+2024-12-24 22:03:39 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-24 22:03:39 INFO  - Root WebApplicationContext: initialization completed in 1307 ms
+2024-12-24 22:03:39 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-24 22:03:39 INFO  - HHH000026: Second-level cache disabled
+2024-12-24 22:03:39 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-24 22:03:41 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-24 22:03:41 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 22:03:41 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-24 22:03:41 INFO  - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-24 22:03:42 INFO  - LiveReload server is running on port 35729
+2024-12-24 22:03:42 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-24 22:03:42 INFO  - Started InventoryManagmentSystemApplication in 4.386 seconds (process running for 4.797)
+2024-12-24 22:03:46 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-24 22:03:46 INFO  - Completed initialization in 1 ms
+2024-12-24 22:03:46 WARN  - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2024-12-24 22:04:10 INFO  - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-12-24 22:04:10 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 22:04:10 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 1716 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-24 22:04:10 INFO  - The following 1 profile is active: "dev"
+2024-12-24 22:04:11 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-24 22:04:11 INFO  - Finished Spring Data repository scanning in 18 ms. Found 5 JPA repository interfaces.
+2024-12-24 22:04:11 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-24 22:04:11 INFO  - Root WebApplicationContext: initialization completed in 316 ms
+2024-12-24 22:04:11 INFO  - HHH000026: Second-level cache disabled
+2024-12-24 22:04:11 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-24 22:04:11 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-24 22:04:11 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 22:04:11 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-24 22:04:11 INFO  - LiveReload server is running on port 35729
+2024-12-24 22:04:11 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-24 22:04:11 INFO  - Started InventoryManagmentSystemApplication in 0.896 seconds (process running for 34.346)
+2024-12-24 22:04:11 INFO  - Condition evaluation unchanged
+2024-12-24 22:04:50 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-24 22:04:50 INFO  - Completed initialization in 1 ms
+2024-12-24 22:04:50 WARN  - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2024-12-24 22:11:13 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 22:11:15 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-24 22:11:15 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 18560 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-24 22:11:15 INFO  - The following 1 profile is active: "dev"
+2024-12-24 22:11:15 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-24 22:11:15 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-24 22:11:16 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-24 22:11:16 INFO  - Finished Spring Data repository scanning in 48 ms. Found 5 JPA repository interfaces.
+2024-12-24 22:11:17 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-24 22:11:17 INFO  - Root WebApplicationContext: initialization completed in 1331 ms
+2024-12-24 22:11:17 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-24 22:11:17 INFO  - HHH000026: Second-level cache disabled
+2024-12-24 22:11:17 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-24 22:11:18 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-24 22:11:18 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 22:11:18 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-24 22:11:18 INFO  - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-24 22:11:19 INFO  - LiveReload server is running on port 35729
+2024-12-24 22:11:19 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-24 22:11:19 INFO  - Started InventoryManagmentSystemApplication in 4.501 seconds (process running for 4.957)
+2024-12-24 22:12:58 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-24 22:12:58 INFO  - Completed initialization in 1 ms
+2024-12-24 22:12:58 WARN  - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2024-12-24 22:18:01 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 22:18:05 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-24 22:18:05 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 10924 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-24 22:18:05 INFO  - The following 1 profile is active: "dev"
+2024-12-24 22:18:05 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-24 22:18:05 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-24 22:18:06 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-24 22:18:06 INFO  - Finished Spring Data repository scanning in 49 ms. Found 5 JPA repository interfaces.
+2024-12-24 22:18:06 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-24 22:18:06 INFO  - Root WebApplicationContext: initialization completed in 1295 ms
+2024-12-24 22:18:06 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-24 22:18:07 INFO  - HHH000026: Second-level cache disabled
+2024-12-24 22:18:07 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-24 22:18:08 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-24 22:18:08 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 22:18:08 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-24 22:18:08 INFO  - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-24 22:18:09 INFO  - LiveReload server is running on port 35729
+2024-12-24 22:18:09 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-24 22:18:09 INFO  - Started InventoryManagmentSystemApplication in 4.456 seconds (process running for 4.908)
+2024-12-24 22:18:11 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-24 22:18:11 INFO  - Completed initialization in 2 ms
+2024-12-24 22:18:11 WARN  - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2024-12-24 22:22:51 INFO  - Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2024-12-24 22:22:51 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 22:22:51 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 10924 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-24 22:22:51 INFO  - The following 1 profile is active: "dev"
+2024-12-24 22:22:51 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-24 22:22:51 INFO  - Finished Spring Data repository scanning in 18 ms. Found 5 JPA repository interfaces.
+2024-12-24 22:22:51 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-24 22:22:51 INFO  - Root WebApplicationContext: initialization completed in 316 ms
+2024-12-24 22:22:51 INFO  - HHH000026: Second-level cache disabled
+2024-12-24 22:22:51 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-24 22:22:52 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-24 22:22:52 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 22:22:52 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-24 22:22:52 INFO  - LiveReload server is running on port 35729
+2024-12-24 22:22:52 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-24 22:22:52 INFO  - Started InventoryManagmentSystemApplication in 0.952 seconds (process running for 287.871)
+2024-12-24 22:22:52 INFO  - Condition evaluation unchanged
+2024-12-24 22:23:20 INFO  - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-12-24 22:23:20 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 22:23:20 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 10924 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-24 22:23:20 INFO  - The following 1 profile is active: "dev"
+2024-12-24 22:23:20 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-24 22:23:20 INFO  - Finished Spring Data repository scanning in 20 ms. Found 5 JPA repository interfaces.
+2024-12-24 22:23:21 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-24 22:23:21 INFO  - Root WebApplicationContext: initialization completed in 281 ms
+2024-12-24 22:23:21 INFO  - HHH000026: Second-level cache disabled
+2024-12-24 22:23:21 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-24 22:23:21 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-24 22:23:21 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 22:23:21 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-24 22:23:21 INFO  - LiveReload server is running on port 35729
+2024-12-24 22:23:21 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-24 22:23:21 INFO  - Started InventoryManagmentSystemApplication in 0.787 seconds (process running for 316.904)
+2024-12-24 22:23:21 INFO  - Condition evaluation unchanged
+2024-12-24 22:27:54 INFO  - Restarting due to 3 class path changes (0 additions, 3 deletions, 0 modifications)
+2024-12-24 22:27:54 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 22:27:54 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 10924 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-24 22:27:54 INFO  - The following 1 profile is active: "dev"
+2024-12-24 22:27:54 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-24 22:27:54 INFO  - Finished Spring Data repository scanning in 21 ms. Found 5 JPA repository interfaces.
+2024-12-24 22:27:54 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-24 22:27:55 INFO  - Root WebApplicationContext: initialization completed in 332 ms
+2024-12-24 22:27:55 INFO  - HHH000026: Second-level cache disabled
+2024-12-24 22:27:55 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-24 22:27:55 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-24 22:27:55 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 22:27:55 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-24 22:27:55 INFO  - LiveReload server is running on port 35729
+2024-12-24 22:27:55 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-24 22:27:55 INFO  - Started InventoryManagmentSystemApplication in 0.926 seconds (process running for 590.885)
+2024-12-24 22:27:55 INFO  - Condition evaluation unchanged
+2024-12-24 22:27:56 INFO  - Restarting due to 3 class path changes (3 additions, 0 deletions, 0 modifications)
+2024-12-24 22:27:57 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 22:27:57 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 10924 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-24 22:27:57 INFO  - The following 1 profile is active: "dev"
+2024-12-24 22:27:57 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-24 22:27:57 INFO  - Finished Spring Data repository scanning in 23 ms. Found 5 JPA repository interfaces.
+2024-12-24 22:27:57 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-24 22:27:57 INFO  - Root WebApplicationContext: initialization completed in 296 ms
+2024-12-24 22:27:57 INFO  - HHH000026: Second-level cache disabled
+2024-12-24 22:27:57 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-24 22:27:57 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-24 22:27:57 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 22:27:57 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-24 22:27:57 INFO  - LiveReload server is running on port 35729
+2024-12-24 22:27:57 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-24 22:27:57 INFO  - Started InventoryManagmentSystemApplication in 0.806 seconds (process running for 593.244)
+2024-12-24 22:27:57 INFO  - Condition evaluation unchanged
+2024-12-24 22:31:03 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 22:31:06 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-24 22:31:06 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 21800 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-24 22:31:06 INFO  - The following 1 profile is active: "dev"
+2024-12-24 22:31:06 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-24 22:31:06 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-24 22:31:06 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-24 22:31:06 INFO  - Finished Spring Data repository scanning in 44 ms. Found 5 JPA repository interfaces.
+2024-12-24 22:31:07 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-24 22:31:07 INFO  - Root WebApplicationContext: initialization completed in 1292 ms
+2024-12-24 22:31:07 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-24 22:31:07 INFO  - HHH000026: Second-level cache disabled
+2024-12-24 22:31:07 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-24 22:31:09 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-24 22:31:09 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 22:31:09 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-24 22:31:09 INFO  - LiveReload server is running on port 35729
+2024-12-24 22:31:10 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-24 22:31:10 INFO  - Started InventoryManagmentSystemApplication in 4.166 seconds (process running for 4.62)
+2024-12-24 22:35:45 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 22:36:16 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-24 22:36:16 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 23868 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-24 22:36:16 INFO  - The following 1 profile is active: "dev"
+2024-12-24 22:36:16 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-24 22:36:16 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-24 22:36:17 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-24 22:36:17 INFO  - Finished Spring Data repository scanning in 51 ms. Found 5 JPA repository interfaces.
+2024-12-24 22:36:17 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-24 22:36:17 INFO  - Root WebApplicationContext: initialization completed in 1471 ms
+2024-12-24 22:36:17 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-24 22:36:17 INFO  - HHH000026: Second-level cache disabled
+2024-12-24 22:36:18 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-24 22:36:19 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-24 22:36:19 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 22:36:19 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-24 22:36:20 INFO  - LiveReload server is running on port 35729
+2024-12-24 22:36:20 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-24 22:36:20 INFO  - Started InventoryManagmentSystemApplication in 4.385 seconds (process running for 4.804)
+2024-12-24 22:36:27 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-24 22:36:27 INFO  - Completed initialization in 1 ms
+2024-12-24 22:36:28 WARN  - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2024-12-24 22:39:04 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 22:39:06 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-24 22:39:06 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 27132 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-24 22:39:06 INFO  - The following 1 profile is active: "dev"
+2024-12-24 22:39:06 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-24 22:39:06 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-24 22:39:07 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-24 22:39:07 INFO  - Finished Spring Data repository scanning in 46 ms. Found 5 JPA repository interfaces.
+2024-12-24 22:39:08 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-24 22:39:08 INFO  - Root WebApplicationContext: initialization completed in 1279 ms
+2024-12-24 22:39:08 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-24 22:39:08 INFO  - HHH000026: Second-level cache disabled
+2024-12-24 22:39:08 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-24 22:39:09 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-24 22:39:09 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 22:39:10 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-24 22:39:10 INFO  - LiveReload server is running on port 35729
+2024-12-24 22:39:10 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-24 22:39:10 INFO  - Started InventoryManagmentSystemApplication in 4.207 seconds (process running for 4.702)
+2024-12-24 22:39:16 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-24 22:39:16 INFO  - Completed initialization in 1 ms
+2024-12-24 22:39:16 WARN  - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2024-12-24 22:40:01 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 22:46:51 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-24 22:46:51 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 26408 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-24 22:46:51 INFO  - The following 1 profile is active: "dev"
+2024-12-24 22:46:51 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-24 22:46:51 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-24 22:46:51 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-24 22:46:52 INFO  - Finished Spring Data repository scanning in 47 ms. Found 5 JPA repository interfaces.
+2024-12-24 22:46:52 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-24 22:46:52 INFO  - Root WebApplicationContext: initialization completed in 1424 ms
+2024-12-24 22:46:52 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-24 22:46:52 INFO  - HHH000026: Second-level cache disabled
+2024-12-24 22:46:53 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-24 22:46:54 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-24 22:46:54 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 22:46:54 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-24 22:46:55 INFO  - LiveReload server is running on port 35729
+2024-12-24 22:46:55 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-24 22:46:55 INFO  - Started InventoryManagmentSystemApplication in 4.36 seconds (process running for 4.852)
+2024-12-24 22:47:00 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-24 22:47:00 INFO  - Completed initialization in 1 ms
+2024-12-24 22:47:00 WARN  - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2024-12-24 22:49:43 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 22:49:45 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-24 22:49:45 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 26424 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-24 22:49:45 INFO  - The following 1 profile is active: "dev"
+2024-12-24 22:49:45 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-24 22:49:45 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-24 22:49:46 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-24 22:49:46 INFO  - Finished Spring Data repository scanning in 48 ms. Found 5 JPA repository interfaces.
+2024-12-24 22:49:47 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-24 22:49:47 INFO  - Root WebApplicationContext: initialization completed in 1306 ms
+2024-12-24 22:49:47 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-24 22:49:47 INFO  - HHH000026: Second-level cache disabled
+2024-12-24 22:49:47 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-24 22:49:48 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-24 22:49:48 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 22:49:49 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-24 22:49:49 INFO  - LiveReload server is running on port 35729
+2024-12-24 22:49:49 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-24 22:49:49 INFO  - Started InventoryManagmentSystemApplication in 4.276 seconds (process running for 4.747)
+2024-12-24 22:49:53 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-24 22:49:53 INFO  - Completed initialization in 1 ms
+2024-12-24 22:49:53 WARN  - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2024-12-24 22:51:26 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 22:51:59 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-24 22:51:59 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 9056 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-24 22:51:59 INFO  - The following 1 profile is active: "dev"
+2024-12-24 22:51:59 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-24 22:51:59 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-24 22:51:59 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-24 22:52:00 INFO  - Finished Spring Data repository scanning in 48 ms. Found 5 JPA repository interfaces.
+2024-12-24 22:52:00 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-24 22:52:00 INFO  - Root WebApplicationContext: initialization completed in 1340 ms
+2024-12-24 22:52:00 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-24 22:52:00 INFO  - HHH000026: Second-level cache disabled
+2024-12-24 22:52:00 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-24 22:52:02 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-24 22:52:02 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 22:52:02 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-24 22:52:03 INFO  - LiveReload server is running on port 35729
+2024-12-24 22:52:03 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-24 22:52:03 INFO  - Started InventoryManagmentSystemApplication in 4.29 seconds (process running for 4.726)
+2024-12-24 22:52:10 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-24 22:52:10 INFO  - Completed initialization in 2 ms
+2024-12-24 22:52:10 WARN  - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2024-12-24 23:02:14 WARN  - Resolved [gr.aueb.cf.inventorymanagementsystem.core.exceptions.AppObjectAlreadyExists: Supplier with name Kostas Veloutsos already exists.]
+2024-12-24 23:07:01 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 23:10:11 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-24 23:10:11 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 27884 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-24 23:10:11 INFO  - The following 1 profile is active: "dev"
+2024-12-24 23:10:11 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-24 23:10:11 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-24 23:10:12 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-24 23:10:12 INFO  - Finished Spring Data repository scanning in 49 ms. Found 5 JPA repository interfaces.
+2024-12-24 23:10:12 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-24 23:10:13 INFO  - Root WebApplicationContext: initialization completed in 1285 ms
+2024-12-24 23:10:13 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-24 23:10:13 INFO  - HHH000026: Second-level cache disabled
+2024-12-24 23:10:13 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-24 23:10:14 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-24 23:10:14 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-24 23:10:14 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-24 23:10:15 INFO  - LiveReload server is running on port 35729
+2024-12-24 23:10:15 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-24 23:10:15 INFO  - Started InventoryManagmentSystemApplication in 4.1 seconds (process running for 4.567)
+2024-12-24 23:10:18 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-24 23:10:18 INFO  - Completed initialization in 1 ms
+2024-12-24 23:10:18 WARN  - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2024-12-24 23:15:39 WARN  - Resolved [gr.aueb.cf.inventorymanagementsystem.core.exceptions.AppObjectAlreadyExists: Product with name Test already exists.]
+2024-12-24 23:19:11 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'

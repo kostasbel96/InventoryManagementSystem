@@ -1,0 +1,108 @@
+<div class="container mt-5">
+    <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+      <!-- Όνομα Προϊόντος -->
+      <label for="fname">Firstname</label>
+      <input
+        type="text"
+        id="fname"
+        class="form-control"
+        formControlName="fname"
+        placeholder="Enter your firstname"
+      />
+      <div *ngIf="registerForm.get('fname')?.invalid && registerForm.get('fname')?.touched" class="text-danger">
+        Firstname is required.
+      </div>
+
+      <label for="lname">Lastname</label>
+      <input
+        type="text"
+        id="lname"
+        class="form-control"
+        formControlName="lname"
+        placeholder="Enter your lastname"
+      />
+      <div *ngIf="registerForm.get('lname')?.invalid && registerForm.get('lname')?.touched" class="text-danger">
+        Lastname is required.
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          class="form-control"
+          formControlName="email"
+          placeholder="Enter your email"
+        />
+        <div *ngIf="registerForm.get('email')?.invalid && registerForm.get('email')?.touched" class="text-danger">
+          Please enter valid email.
+        </div>
+        <label for="role">Role</label>
+        <select
+          id="role"
+          class="form-control"
+          formControlName="role"
+        >
+          <option value="">Select Role</option>
+          <option value="ADMIN">Admin</option>
+          <option value="USER">User</option>
+        </select>
+        <div *ngIf="registerForm.get('role')?.invalid && registerForm.get('role')?.touched" class="text-danger">
+          Please select a role.
+        </div>
+
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          class="form-control"
+          formControlName="password"
+          placeholder="Enter your password"
+        />
+        <div *ngIf="registerForm.get('password')?.invalid && registerForm.get('password')?.touched" class="text-danger">
+          Please enter valid password.
+        </div>
+
+        <label for="confirmPassword">Confirm Password</label>
+        <input
+          type="password"
+          id="confirmPassword"
+          class="form-control"
+          formControlName="confirmPassword"
+          placeholder="Enter your password again"
+        />
+        <div *ngIf="registerForm.get('confirmPassword')?.dirty 
+          && registerForm.errors?.['mismatch']">
+            <p style="color: red;">The password and confirm password do not match.</p>
+        </div>
+
+      </div>
+      <div *ngIf="registrationStatus.success" class="alert alert-success mt-2 w-50">
+        <strong>Success:</strong> {{registrationStatus.message}}
+      </div>
+      <!-- Υποβολή -->
+      <button type="submit" class="btn btn-primary mt-2" [disabled]="registerForm.invalid">Create</button>
+    </form>
+</div>
+
+
+  
+  
+  
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Succesfully register!</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Welcome {{insertedUser}}!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>  

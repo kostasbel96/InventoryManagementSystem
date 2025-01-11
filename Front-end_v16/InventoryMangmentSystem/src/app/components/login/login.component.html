@@ -1,0 +1,59 @@
+<div class="container mt-5">
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+      <!-- Όνομα Προϊόντος -->
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          class="form-control"
+          formControlName="username"
+          placeholder="Enter your email"
+        />
+        <div *ngIf="form.get('email')?.invalid && form.get('email')?.touched" class="text-danger">
+          Please enter valid email.
+        </div>
+
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          class="form-control"
+          formControlName="password"
+          placeholder="Enter your password"
+        />
+        <div *ngIf="form.get('password')?.invalid && form.get('password')?.touched" class="text-danger">
+          Please enter valid password.
+        </div>
+    </div>
+      <!-- Υποβολή -->
+      <button type="submit" class="btn btn-primary mt-2" [disabled]="form.invalid">Login</button>
+      <div *ngIf="invalidLogin">
+        <strong>Error:</strong> Invalid email or password
+      </div>
+    </form>
+    <div class="mt-5">
+        <a routerLink="/register" class="btn btn-success">Create an account</a>
+    </div>
+</div>
+
+  
+  
+  
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Succesfully login</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Welcome {{username}}!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>  

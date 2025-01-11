@@ -1,0 +1,7 @@
+<div class="list-group list-group-flush w-20 " style="margin-top:10vh">
+        <a *ngFor="let entry of menu" 
+            class="list-group-item list-group-item-action list-group-item-secondary" 
+            [routerLink] = "entry.routerLink"
+            [routerLinkActive] = "['active']"
+        >{{entry.text}}</a>
+</div>

@@ -1,0 +1,118 @@
+<div class="container mt-5">
+    <form [formGroup]="productForm" (ngSubmit)="onSubmit()">
+      <!-- Όνομα Προϊόντος -->
+      <div class="form-group">
+        <label for="name">Product Name</label>
+        <input
+          type="text"
+          id="name"
+          class="form-control"
+          formControlName="name"
+          placeholder="Enter product name"
+        />
+        <div *ngIf="productForm.get('name')?.invalid && productForm.get('name')?.touched" class="text-danger">
+          Product name is required and must be at least 3 characters long.
+        </div>
+      </div>
+  
+      <!--Προμηθευτής-->
+      <div class="form-group">
+        <label for="supplier">Supplier</label>
+        <select class="form-select" formControlName="supplier" [compareWith]="compareSuppliers">
+          <option value="" disabled selected>Choose a supplier</option>
+          <option *ngFor="let supplier of suppliers" [ngValue]="supplier" >
+            {{ supplier.name }}
+          </option>
+        </select>
+        <div *ngIf="productForm.get('supplier')?.invalid && productForm.get('supplier')?.touched" class="text-danger">
+          Supplier is required.
+        </div>
+      </div>
+  
+      <!--Κατηγορία-->
+      <div class="form-group">
+        <label for="category">Category</label>
+        <select class="form-select" formControlName="category" [compareWith]="compareCategories">
+          <option value="" disabled selected>Choose a category</option>
+          <option *ngFor="let category of categories" [ngValue]="category">
+            {{ category.name }}
+          </option>
+        </select>
+        <div *ngIf="productForm.get('category')?.invalid && productForm.get('category')?.touched" class="text-danger">
+          Category is required.
+        </div>
+      </div>
+  
+      <!-- Τιμή -->
+      <div class="form-group">
+        <label for="price">Price</label>
+        <input
+          type="number"
+          id="price"
+          class="form-control"
+          formControlName="price"
+          placeholder="Enter product price"
+        />
+        <div *ngIf="productForm.get('price')?.invalid && productForm.get('price')?.touched" class="text-danger">
+          Price is required and must be greater than 0.
+        </div>
+      </div>
+    
+      <!-- Περιγραφή -->
+      <div class="form-group">
+        <label for="description">Description</label>
+        <textarea
+          id="description"
+          class="form-control"
+          formControlName="description"
+          placeholder="Enter product description"
+          rows="3"
+        ></textarea>
+        <div *ngIf="productForm.get('description')?.invalid && productForm.get('description')?.touched" class="text-danger">
+          Description cannot exceed 200 characters.
+        </div>
+      </div>
+    
+      <!-- Ποσότητα -->
+      <div class="form-group">
+        <label for="quantity">Quantity</label>
+        <input
+          type="number"
+          id="quantity"
+          class="form-control"
+          formControlName="quantity"
+          placeholder="Enter product quantity"
+        />
+        <div *ngIf="productForm.get('quantity')?.invalid && productForm.get('quantity')?.touched" class="text-danger">
+          Quantity is required and must be at least 1.
+        </div>
+      </div>
+    
+      <!-- Υποβολή -->
+      <button type="submit" class="btn btn-primary mt-2" [disabled]="productForm.invalid">Submit</button>
+    </form>
+  </div>
+    
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Product Submitted</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ng-container *ngIf="errorMessage; else successTemplate">
+            <span style="color: red;">{{ errorMessage }}</span>
+          </ng-container>
+          <ng-template #successTemplate>
+            The {{ updatedProduct.name }} has been successfully updated!
+          </ng-template>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>  
+    

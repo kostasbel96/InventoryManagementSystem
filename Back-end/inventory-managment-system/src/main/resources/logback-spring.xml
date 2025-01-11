@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <!-- Console Appender -->
+    <appender name="Console" class="ch.qos.logback.core.ConsoleAppender">
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>INFO</level>
+        </filter>
+        <encoder>
+            <pattern>%highlight([%-5level]) %cyan(%d{HH:mm:ss.SSS}) %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- General Application Logs -->
+    <appender name="AllLogs" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/all.log</file>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>INFO</level>
+        </filter>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level - %msg%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/all.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+    </appender>
+
+    <!-- Error Logs -->
+    <appender name="Errors" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/error.log</file>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>ERROR</level>
+        </filter>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level - %msg%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/error.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+    </appender>
+
+    <!-- Tomcat Logs -->
+    <appender name="TomcatLogs" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/tomcat.log</file>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/tomcat.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+    </appender>
+
+    <!-- HikariCP Logs -->
+    <appender name="HikariLogs" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/hikari.log</file>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/hikari.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+    </appender>
+
+    <!-- Loggers for Tomcat -->
+    <logger name="org.apache.catalina" level="DEBUG" additivity="false">
+        <appender-ref ref="TomcatLogs"/>
+    </logger>
+
+    <logger name="org.apache.coyote" level="DEBUG" additivity="false">
+        <appender-ref ref="TomcatLogs"/>
+    </logger>
+
+    <logger name="org.apache.tomcat" level="DEBUG" additivity="false">
+        <appender-ref ref="TomcatLogs"/>
+    </logger>
+
+    <!-- Logger for HikariCP -->
+    <logger name="com.zaxxer.hikari" level="DEBUG" additivity="false">
+        <appender-ref ref="HikariLogs"/>
+    </logger>
+
+    <!-- Root Logger -->
+    <root level="DEBUG">
+        <appender-ref ref="Console"/>
+        <appender-ref ref="AllLogs"/>
+        <appender-ref ref="Errors"/>
+    </root>
+
+</configuration>

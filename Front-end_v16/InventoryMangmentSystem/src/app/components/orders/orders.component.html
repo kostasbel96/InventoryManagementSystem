@@ -1,0 +1,75 @@
+
+<div class="container">
+
+    <!-- Search Bar -->
+    <div class="d-flex flex-column mb-5">
+        <div class="input-group mb-2">
+            <div class="input-group-prepend">
+                <span class="input-group-text">Search by Supplier Name</span>
+            </div>
+            <input 
+                type="text" 
+                class="form-control" 
+                placeholder="Enter supplier name" 
+                [(ngModel)]="supplierName"
+                (input)="getBySupplierName(supplierName)">
+        </div>
+        <div>
+            <a routerLink="/insertOrder" class="btn btn-primary">Add Order</a>
+        </div>
+    </div>
+    
+    <!-- Orders Table -->
+    <div *ngIf="filteredOrders.length > 0; else noOrders">      
+        <table class="table table-dark">
+            <thead>
+                <tr>
+                    <th class="text-center" scope="col">Date</th>
+                    <th class="text-center" scope="col">Total Amount</th>
+                    <th class="text-center" scope="col">Products</th>
+                    <th class="text-center" scope="col">Supplier</th>
+                    <th class="text-center" scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let order of filteredOrders">
+                    <td class="text-center" scope="row">{{ order.orderDate }}</td>
+                    <td class="text-center">{{ getTotalAmount(order.id) | currency }}</td>
+                    <td class="text-center">
+                        <ul class="list-unstyled">
+                            <li *ngFor="let orderItem of order.orderItems">
+                                {{ orderItem.product.name }}
+                            </li>
+                        </ul>
+                    </td>
+                    <td class="text-center">{{ order.supplier?.name}}</td>
+                    <td class="text-center">
+                        <button class="btn btn-secondary" [routerLink]="['/orders/edit/', order.id]">Edit</button>
+                        <button class="btn btn-danger m-2" (click)="deleteOrder(order.id)">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- Pagination Controls -->
+    <nav class="pagination-container">
+        <ul class="pagination justify-content-center">
+        <li class="page-item" [class.disabled]="currentPage === 0">
+            <button class="page-link" (click)="changePage(currentPage - 1)">Previous</button>
+        </li>
+        <li class="page-item" *ngFor="let page of [].constructor(totalPages); let i = index" [class.active]="currentPage === i">
+            <a class="page-link" (click)="changePage(i)">{{ i + 1 }}</a>
+        </li>
+        <li class="page-item" [class.disabled]="currentPage === totalPages - 1">
+            <button class="page-link" (click)="changePage(currentPage + 1)">Next</button>
+        </li>
+        </ul>
+  </nav>
+    <!-- No Orders Message -->
+    <ng-template #noOrders>
+        <p>No Orders Found.</p>
+    </ng-template>
+</div>
+
+
+

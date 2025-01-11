@@ -1,0 +1,44 @@
+<div class="container mt-5">
+    <form [formGroup]="categoryForm" (ngSubmit)="onSubmit()">
+      <!-- Όνομα Προϊόντος -->
+      <div class="form-group">
+        <label for="name">Category Name</label>
+        <input
+          type="text"
+          id="name"
+          class="form-control"
+          formControlName="name"
+          placeholder="Enter category name"
+        />
+        <div *ngIf="categoryForm.get('name')?.invalid && categoryForm.get('name')?.touched" class="text-danger">
+          Category name is required and must be at least 3 characters long.
+        </div>
+      </div>
+
+      <!-- Υποβολή -->
+      <button type="submit" class="btn btn-primary mt-2" [disabled]="categoryForm.invalid">Submit</button>
+    </form>
+  </div>
+  
+  <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Product Submitted</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <ng-container *ngIf="errorMessage; else successTemplate">
+          <span style="color: red;">{{ errorMessage }}</span>
+        </ng-container>
+        <ng-template #successTemplate>
+          The {{ updatedCategory.name }} has been successfully added!
+        </ng-template>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>  

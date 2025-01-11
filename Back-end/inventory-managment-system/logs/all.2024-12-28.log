@@ -1,0 +1,927 @@
+2024-12-28 00:00:59 WARN  - SQL Error: 1451, SQLState: 23000
+2024-12-28 00:00:59 ERROR - Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`products`, CONSTRAINT `FKrk2vqdfq7yhpy5qgive31cpfi` FOREIGN KEY (`supplier_id`) REFERENCES `suppliers` (`id`))
+2024-12-28 00:01:33 WARN  - SQL Error: 1451, SQLState: 23000
+2024-12-28 00:01:33 ERROR - Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`products`, CONSTRAINT `FKrk2vqdfq7yhpy5qgive31cpfi` FOREIGN KEY (`supplier_id`) REFERENCES `suppliers` (`id`))
+2024-12-28 00:02:58 WARN  - SQL Error: 1451, SQLState: 23000
+2024-12-28 00:02:58 ERROR - Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`products`, CONSTRAINT `FKrk2vqdfq7yhpy5qgive31cpfi` FOREIGN KEY (`supplier_id`) REFERENCES `suppliers` (`id`))
+2024-12-28 00:03:15 WARN  - SQL Error: 1451, SQLState: 23000
+2024-12-28 00:03:15 ERROR - Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`products`, CONSTRAINT `FKrk2vqdfq7yhpy5qgive31cpfi` FOREIGN KEY (`supplier_id`) REFERENCES `suppliers` (`id`))
+2024-12-28 00:03:47 WARN  - SQL Error: 1451, SQLState: 23000
+2024-12-28 00:03:47 ERROR - Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`products`, CONSTRAINT `FKrk2vqdfq7yhpy5qgive31cpfi` FOREIGN KEY (`supplier_id`) REFERENCES `suppliers` (`id`))
+2024-12-28 00:04:48 WARN  - SQL Error: 1451, SQLState: 23000
+2024-12-28 00:04:48 ERROR - Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`products`, CONSTRAINT `FKrk2vqdfq7yhpy5qgive31cpfi` FOREIGN KEY (`supplier_id`) REFERENCES `suppliers` (`id`))
+2024-12-28 00:05:15 WARN  - SQL Error: 1451, SQLState: 23000
+2024-12-28 00:05:15 ERROR - Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`products`, CONSTRAINT `FKrk2vqdfq7yhpy5qgive31cpfi` FOREIGN KEY (`supplier_id`) REFERENCES `suppliers` (`id`))
+2024-12-28 00:06:35 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 00:06:38 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-28 00:06:38 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 14232 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-28 00:06:38 INFO  - The following 1 profile is active: "dev"
+2024-12-28 00:06:38 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-28 00:06:38 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-28 00:06:39 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-28 00:06:39 INFO  - Finished Spring Data repository scanning in 47 ms. Found 5 JPA repository interfaces.
+2024-12-28 00:06:39 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-28 00:06:39 INFO  - Root WebApplicationContext: initialization completed in 1269 ms
+2024-12-28 00:06:39 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-28 00:06:39 INFO  - HHH000026: Second-level cache disabled
+2024-12-28 00:06:40 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-28 00:06:41 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-28 00:06:41 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 00:06:41 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-28 00:06:42 INFO  - LiveReload server is running on port 35729
+2024-12-28 00:06:42 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-28 00:06:42 INFO  - Started InventoryManagmentSystemApplication in 4.05 seconds (process running for 4.496)
+2024-12-28 00:06:45 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-28 00:06:45 INFO  - Completed initialization in 1 ms
+2024-12-28 00:06:45 WARN  - SQL Error: 1451, SQLState: 23000
+2024-12-28 00:06:45 ERROR - Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`products`, CONSTRAINT `FKrk2vqdfq7yhpy5qgive31cpfi` FOREIGN KEY (`supplier_id`) REFERENCES `suppliers` (`id`))
+2024-12-28 00:06:50 WARN  - SQL Error: 1451, SQLState: 23000
+2024-12-28 00:06:50 ERROR - Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`products`, CONSTRAINT `FKrk2vqdfq7yhpy5qgive31cpfi` FOREIGN KEY (`supplier_id`) REFERENCES `suppliers` (`id`))
+2024-12-28 00:06:54 WARN  - SQL Error: 1451, SQLState: 23000
+2024-12-28 00:06:54 ERROR - Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`products`, CONSTRAINT `FKrk2vqdfq7yhpy5qgive31cpfi` FOREIGN KEY (`supplier_id`) REFERENCES `suppliers` (`id`))
+2024-12-28 00:06:57 WARN  - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2024-12-28 00:06:59 WARN  - SQL Error: 1451, SQLState: 23000
+2024-12-28 00:06:59 ERROR - Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`products`, CONSTRAINT `FKrk2vqdfq7yhpy5qgive31cpfi` FOREIGN KEY (`supplier_id`) REFERENCES `suppliers` (`id`))
+2024-12-28 00:07:05 WARN  - SQL Error: 1451, SQLState: 23000
+2024-12-28 00:07:05 ERROR - Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`products`, CONSTRAINT `FKrk2vqdfq7yhpy5qgive31cpfi` FOREIGN KEY (`supplier_id`) REFERENCES `suppliers` (`id`))
+2024-12-28 00:07:09 WARN  - SQL Error: 1451, SQLState: 23000
+2024-12-28 00:07:09 ERROR - Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`products`, CONSTRAINT `FKrk2vqdfq7yhpy5qgive31cpfi` FOREIGN KEY (`supplier_id`) REFERENCES `suppliers` (`id`))
+2024-12-28 00:07:49 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 00:38:28 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-28 00:38:28 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 18488 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-28 00:38:28 INFO  - The following 1 profile is active: "dev"
+2024-12-28 00:38:28 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-28 00:38:28 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-28 00:38:29 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-28 00:38:29 INFO  - Finished Spring Data repository scanning in 55 ms. Found 5 JPA repository interfaces.
+2024-12-28 00:38:29 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-28 00:38:29 INFO  - Root WebApplicationContext: initialization completed in 1381 ms
+2024-12-28 00:38:29 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-28 00:38:29 INFO  - HHH000026: Second-level cache disabled
+2024-12-28 00:38:30 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-28 00:38:31 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-28 00:38:31 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 00:38:31 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-28 00:38:32 INFO  - LiveReload server is running on port 35729
+2024-12-28 00:38:32 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-28 00:38:32 INFO  - Started InventoryManagmentSystemApplication in 4.32 seconds (process running for 4.767)
+2024-12-28 00:38:32 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-28 00:38:32 INFO  - Completed initialization in 1 ms
+2024-12-28 00:38:32 WARN  - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2024-12-28 00:38:35 WARN  - SQL Error: 1451, SQLState: 23000
+2024-12-28 00:38:35 ERROR - Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`products`, CONSTRAINT `FK827lf8qbstfj3abq30f0asvv6` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`))
+2024-12-28 00:38:38 WARN  - SQL Error: 1451, SQLState: 23000
+2024-12-28 00:38:38 ERROR - Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`products`, CONSTRAINT `FK827lf8qbstfj3abq30f0asvv6` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`))
+2024-12-28 00:38:42 WARN  - SQL Error: 1451, SQLState: 23000
+2024-12-28 00:38:42 ERROR - Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`products`, CONSTRAINT `FK827lf8qbstfj3abq30f0asvv6` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`))
+2024-12-28 00:41:37 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 00:42:10 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-28 00:42:10 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 25316 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-28 00:42:10 INFO  - The following 1 profile is active: "dev"
+2024-12-28 00:42:10 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-28 00:42:10 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-28 00:42:11 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-28 00:42:11 INFO  - Finished Spring Data repository scanning in 47 ms. Found 5 JPA repository interfaces.
+2024-12-28 00:42:11 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-28 00:42:11 INFO  - Root WebApplicationContext: initialization completed in 1283 ms
+2024-12-28 00:42:11 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-28 00:42:11 INFO  - HHH000026: Second-level cache disabled
+2024-12-28 00:42:12 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-28 00:42:13 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-28 00:42:13 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 00:42:13 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-28 00:42:14 INFO  - LiveReload server is running on port 35729
+2024-12-28 00:42:14 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-28 00:42:14 INFO  - Started InventoryManagmentSystemApplication in 4.305 seconds (process running for 4.751)
+2024-12-28 00:43:38 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-28 00:43:38 INFO  - Completed initialization in 2 ms
+2024-12-28 00:43:38 WARN  - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2024-12-28 00:43:55 WARN  - SQL Error: 1451, SQLState: 23000
+2024-12-28 00:43:55 ERROR - Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`products`, CONSTRAINT `FK827lf8qbstfj3abq30f0asvv6` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`))
+2024-12-28 00:43:56 WARN  - Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement [Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`products`, CONSTRAINT `FK827lf8qbstfj3abq30f0asvv6` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`))] [delete from `categories` where `id`=?]; SQL [delete from `categories` where `id`=?]; constraint [null]]
+2024-12-28 00:44:12 WARN  - SQL Error: 1451, SQLState: 23000
+2024-12-28 00:44:12 ERROR - Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`products`, CONSTRAINT `FK827lf8qbstfj3abq30f0asvv6` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`))
+2024-12-28 00:44:12 WARN  - Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement [Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`products`, CONSTRAINT `FK827lf8qbstfj3abq30f0asvv6` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`))] [delete from `categories` where `id`=?]; SQL [delete from `categories` where `id`=?]; constraint [null]]
+2024-12-28 00:45:27 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 00:47:48 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-28 00:47:49 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 24828 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-28 00:47:49 INFO  - The following 1 profile is active: "dev"
+2024-12-28 00:47:49 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-28 00:47:49 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-28 00:47:49 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-28 00:47:49 INFO  - Finished Spring Data repository scanning in 47 ms. Found 5 JPA repository interfaces.
+2024-12-28 00:47:50 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-28 00:47:50 INFO  - Root WebApplicationContext: initialization completed in 1247 ms
+2024-12-28 00:47:50 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-28 00:47:50 INFO  - HHH000026: Second-level cache disabled
+2024-12-28 00:47:50 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-28 00:47:51 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-28 00:47:51 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 00:47:52 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-28 00:47:52 WARN  - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [class org.springframework.dao.DataIntegrityViolationException]: {public org.springframework.http.ResponseEntity gr.aueb.cf.inventorymanagementsystem.core.exceptions.GlobalExceptionHandler.handleSupplierConstraintViolation(org.springframework.dao.DataIntegrityViolationException), public org.springframework.http.ResponseEntity gr.aueb.cf.inventorymanagementsystem.core.exceptions.GlobalExceptionHandler.handleDataIntegrityViolation(org.springframework.dao.DataIntegrityViolationException)}
+2024-12-28 00:47:52 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 00:47:52 ERROR - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [class org.springframework.dao.DataIntegrityViolationException]: {public org.springframework.http.ResponseEntity gr.aueb.cf.inventorymanagementsystem.core.exceptions.GlobalExceptionHandler.handleSupplierConstraintViolation(org.springframework.dao.DataIntegrityViolationException), public org.springframework.http.ResponseEntity gr.aueb.cf.inventorymanagementsystem.core.exceptions.GlobalExceptionHandler.handleDataIntegrityViolation(org.springframework.dao.DataIntegrityViolationException)}
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:648)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1355)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at gr.aueb.cf.inventorymanagementsystem.InventoryManagmentSystemApplication.main(InventoryManagmentSystemApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [class org.springframework.dao.DataIntegrityViolationException]: {public org.springframework.http.ResponseEntity gr.aueb.cf.inventorymanagementsystem.core.exceptions.GlobalExceptionHandler.handleSupplierConstraintViolation(org.springframework.dao.DataIntegrityViolationException), public org.springframework.http.ResponseEntity gr.aueb.cf.inventorymanagementsystem.core.exceptions.GlobalExceptionHandler.handleDataIntegrityViolation(org.springframework.dao.DataIntegrityViolationException)}
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:178)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:644)
+	... 24 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class org.springframework.dao.DataIntegrityViolationException]: {public org.springframework.http.ResponseEntity gr.aueb.cf.inventorymanagementsystem.core.exceptions.GlobalExceptionHandler.handleSupplierConstraintViolation(org.springframework.dao.DataIntegrityViolationException), public org.springframework.http.ResponseEntity gr.aueb.cf.inventorymanagementsystem.core.exceptions.GlobalExceptionHandler.handleDataIntegrityViolation(org.springframework.dao.DataIntegrityViolationException)}
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.addExceptionMapping(ExceptionHandlerMethodResolver.java:114)
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.<init>(ExceptionHandlerMethodResolver.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache(ExceptionHandlerExceptionResolver.java:289)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.afterPropertiesSet(ExceptionHandlerExceptionResolver.java:256)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.addDefaultHandlerExceptionResolvers(WebMvcConfigurationSupport.java:1063)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.handlerExceptionResolver(WebMvcConfigurationSupport.java:1005)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:146)
+	... 25 common frames omitted
+2024-12-28 00:49:25 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-28 00:49:25 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 17988 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-28 00:49:25 INFO  - The following 1 profile is active: "dev"
+2024-12-28 00:49:25 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-28 00:49:25 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-28 00:49:25 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-28 00:49:25 INFO  - Finished Spring Data repository scanning in 49 ms. Found 5 JPA repository interfaces.
+2024-12-28 00:49:26 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-28 00:49:26 INFO  - Root WebApplicationContext: initialization completed in 1254 ms
+2024-12-28 00:49:26 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-28 00:49:26 INFO  - HHH000026: Second-level cache disabled
+2024-12-28 00:49:26 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-28 00:49:27 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-28 00:49:27 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 00:49:28 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-28 00:49:28 INFO  - LiveReload server is running on port 35729
+2024-12-28 00:49:28 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-28 00:49:28 INFO  - Started InventoryManagmentSystemApplication in 4.007 seconds (process running for 4.455)
+2024-12-28 00:49:41 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-28 00:49:41 INFO  - Completed initialization in 1 ms
+2024-12-28 00:49:41 WARN  - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2024-12-28 00:49:43 WARN  - SQL Error: 1451, SQLState: 23000
+2024-12-28 00:49:43 ERROR - Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`products`, CONSTRAINT `FK827lf8qbstfj3abq30f0asvv6` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`))
+2024-12-28 00:49:43 WARN  - Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement [Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`products`, CONSTRAINT `FK827lf8qbstfj3abq30f0asvv6` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`))] [delete from `categories` where `id`=?]; SQL [delete from `categories` where `id`=?]; constraint [null]]
+2024-12-28 00:49:47 WARN  - SQL Error: 1451, SQLState: 23000
+2024-12-28 00:49:47 ERROR - Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`products`, CONSTRAINT `FK827lf8qbstfj3abq30f0asvv6` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`))
+2024-12-28 00:49:47 WARN  - Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement [Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`products`, CONSTRAINT `FK827lf8qbstfj3abq30f0asvv6` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`))] [delete from `categories` where `id`=?]; SQL [delete from `categories` where `id`=?]; constraint [null]]
+2024-12-28 00:49:56 WARN  - SQL Error: 1451, SQLState: 23000
+2024-12-28 00:49:56 ERROR - Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`products`, CONSTRAINT `FKrk2vqdfq7yhpy5qgive31cpfi` FOREIGN KEY (`supplier_id`) REFERENCES `suppliers` (`id`))
+2024-12-28 00:49:56 WARN  - Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement [Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`products`, CONSTRAINT `FKrk2vqdfq7yhpy5qgive31cpfi` FOREIGN KEY (`supplier_id`) REFERENCES `suppliers` (`id`))] [delete from `suppliers` where `id`=?]; SQL [delete from `suppliers` where `id`=?]; constraint [null]]
+2024-12-28 00:49:59 WARN  - SQL Error: 1451, SQLState: 23000
+2024-12-28 00:49:59 ERROR - Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`products`, CONSTRAINT `FKrk2vqdfq7yhpy5qgive31cpfi` FOREIGN KEY (`supplier_id`) REFERENCES `suppliers` (`id`))
+2024-12-28 00:49:59 WARN  - Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement [Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`products`, CONSTRAINT `FKrk2vqdfq7yhpy5qgive31cpfi` FOREIGN KEY (`supplier_id`) REFERENCES `suppliers` (`id`))] [delete from `suppliers` where `id`=?]; SQL [delete from `suppliers` where `id`=?]; constraint [null]]
+2024-12-28 00:50:03 WARN  - SQL Error: 1451, SQLState: 23000
+2024-12-28 00:50:03 ERROR - Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`products`, CONSTRAINT `FKrk2vqdfq7yhpy5qgive31cpfi` FOREIGN KEY (`supplier_id`) REFERENCES `suppliers` (`id`))
+2024-12-28 00:50:03 WARN  - Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement [Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`products`, CONSTRAINT `FKrk2vqdfq7yhpy5qgive31cpfi` FOREIGN KEY (`supplier_id`) REFERENCES `suppliers` (`id`))] [delete from `suppliers` where `id`=?]; SQL [delete from `suppliers` where `id`=?]; constraint [null]]
+2024-12-28 00:54:17 WARN  - SQL Error: 1451, SQLState: 23000
+2024-12-28 00:54:17 ERROR - Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`products`, CONSTRAINT `FKrk2vqdfq7yhpy5qgive31cpfi` FOREIGN KEY (`supplier_id`) REFERENCES `suppliers` (`id`))
+2024-12-28 00:54:17 WARN  - Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement [Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`products`, CONSTRAINT `FKrk2vqdfq7yhpy5qgive31cpfi` FOREIGN KEY (`supplier_id`) REFERENCES `suppliers` (`id`))] [delete from `suppliers` where `id`=?]; SQL [delete from `suppliers` where `id`=?]; constraint [null]]
+2024-12-28 00:54:23 WARN  - SQL Error: 1451, SQLState: 23000
+2024-12-28 00:54:23 ERROR - Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`products`, CONSTRAINT `FK827lf8qbstfj3abq30f0asvv6` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`))
+2024-12-28 00:54:23 WARN  - Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement [Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`products`, CONSTRAINT `FK827lf8qbstfj3abq30f0asvv6` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`))] [delete from `categories` where `id`=?]; SQL [delete from `categories` where `id`=?]; constraint [null]]
+2024-12-28 00:58:50 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 19:31:09 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-28 19:31:09 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 21016 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-28 19:31:09 INFO  - The following 1 profile is active: "dev"
+2024-12-28 19:31:09 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-28 19:31:09 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-28 19:31:10 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-28 19:31:10 INFO  - Finished Spring Data repository scanning in 56 ms. Found 5 JPA repository interfaces.
+2024-12-28 19:31:10 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-28 19:31:10 INFO  - Root WebApplicationContext: initialization completed in 1565 ms
+2024-12-28 19:31:10 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-28 19:31:10 INFO  - HHH000026: Second-level cache disabled
+2024-12-28 19:31:11 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-28 19:31:12 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-28 19:31:12 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 19:31:12 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-28 19:31:13 INFO  - LiveReload server is running on port 35729
+2024-12-28 19:31:13 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-28 19:31:13 INFO  - Started InventoryManagmentSystemApplication in 4.85 seconds (process running for 5.32)
+2024-12-28 19:31:59 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-28 19:31:59 INFO  - Completed initialization in 1 ms
+2024-12-28 19:31:59 WARN  - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2024-12-28 19:32:29 WARN  - SQL Error: 1451, SQLState: 23000
+2024-12-28 19:32:29 ERROR - Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`products`, CONSTRAINT `FK827lf8qbstfj3abq30f0asvv6` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`))
+2024-12-28 19:32:29 WARN  - Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement [Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`products`, CONSTRAINT `FK827lf8qbstfj3abq30f0asvv6` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`))] [delete from `categories` where `id`=?]; SQL [delete from `categories` where `id`=?]; constraint [null]]
+2024-12-28 19:32:33 WARN  - SQL Error: 1451, SQLState: 23000
+2024-12-28 19:32:33 ERROR - Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`products`, CONSTRAINT `FK827lf8qbstfj3abq30f0asvv6` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`))
+2024-12-28 19:32:33 WARN  - Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement [Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`products`, CONSTRAINT `FK827lf8qbstfj3abq30f0asvv6` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`))] [delete from `categories` where `id`=?]; SQL [delete from `categories` where `id`=?]; constraint [null]]
+2024-12-28 19:32:52 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 20:19:21 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-28 20:19:21 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 12376 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-28 20:19:21 INFO  - The following 1 profile is active: "dev"
+2024-12-28 20:19:21 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-28 20:19:21 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-28 20:19:21 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-28 20:19:21 INFO  - Finished Spring Data repository scanning in 49 ms. Found 5 JPA repository interfaces.
+2024-12-28 20:19:22 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-28 20:19:22 INFO  - Root WebApplicationContext: initialization completed in 1348 ms
+2024-12-28 20:19:22 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-28 20:19:22 INFO  - HHH000026: Second-level cache disabled
+2024-12-28 20:19:22 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-28 20:19:24 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-28 20:19:24 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 20:19:24 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-28 20:19:25 INFO  - LiveReload server is running on port 35729
+2024-12-28 20:19:25 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-28 20:19:25 INFO  - Started InventoryManagmentSystemApplication in 4.431 seconds (process running for 4.919)
+2024-12-28 20:19:30 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-28 20:19:30 INFO  - Completed initialization in 0 ms
+2024-12-28 20:21:22 INFO  - Restarting due to 19 class path changes (0 additions, 19 deletions, 0 modifications)
+2024-12-28 20:21:22 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 20:21:22 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 12376 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-28 20:21:22 INFO  - The following 1 profile is active: "dev"
+2024-12-28 20:21:22 WARN  - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: I/O failure while processing configuration class [gr.aueb.cf.inventorymanagementsystem.InventoryManagmentSystemApplication]
+2024-12-28 20:21:23 ERROR - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: I/O failure while processing configuration class [gr.aueb.cf.inventorymanagementsystem.InventoryManagmentSystemApplication]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:251)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:165)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:417)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at gr.aueb.cf.inventorymanagementsystem.InventoryManagmentSystemApplication.main(InventoryManagmentSystemApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.io.FileNotFoundException: class path resource [gr/aueb/cf/inventorymanagementsystem/authentication/AuthenticationService.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:215)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:54)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:48)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103)
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.createMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:86)
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.getMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:73)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:81)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:188)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:314)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246)
+	... 20 common frames omitted
+2024-12-28 20:21:24 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 12376 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-28 20:21:24 INFO  - The following 1 profile is active: "dev"
+2024-12-28 20:21:24 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-28 20:21:24 INFO  - Finished Spring Data repository scanning in 20 ms. Found 5 JPA repository interfaces.
+2024-12-28 20:21:24 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-28 20:21:24 INFO  - Root WebApplicationContext: initialization completed in 289 ms
+2024-12-28 20:21:24 INFO  - HHH000026: Second-level cache disabled
+2024-12-28 20:21:24 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-28 20:21:24 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-28 20:21:24 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 20:21:25 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-28 20:21:25 INFO  - LiveReload server is running on port 35729
+2024-12-28 20:21:25 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-28 20:21:25 INFO  - Started InventoryManagmentSystemApplication in 0.847 seconds (process running for 125.084)
+2024-12-28 20:21:25 INFO  - Condition evaluation unchanged
+2024-12-28 20:22:47 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 20:22:51 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-28 20:22:51 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 20776 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-28 20:22:51 INFO  - The following 1 profile is active: "dev"
+2024-12-28 20:22:51 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-28 20:22:51 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-28 20:22:52 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-28 20:22:52 INFO  - Finished Spring Data repository scanning in 48 ms. Found 5 JPA repository interfaces.
+2024-12-28 20:22:52 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-28 20:22:52 INFO  - Root WebApplicationContext: initialization completed in 1345 ms
+2024-12-28 20:22:53 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-28 20:22:53 INFO  - HHH000026: Second-level cache disabled
+2024-12-28 20:22:53 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-28 20:22:54 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-28 20:22:54 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 20:22:54 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-28 20:22:55 INFO  - LiveReload server is running on port 35729
+2024-12-28 20:22:55 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-28 20:22:55 INFO  - Started InventoryManagmentSystemApplication in 4.394 seconds (process running for 4.826)
+2024-12-28 20:23:05 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-28 20:23:05 INFO  - Completed initialization in 1 ms
+2024-12-28 20:23:06 WARN  - SQL Error: 3819, SQLState: HY000
+2024-12-28 20:23:06 ERROR - Check constraint 'users_chk_1' is violated.
+2024-12-28 20:23:17 WARN  - SQL Error: 3819, SQLState: HY000
+2024-12-28 20:23:17 ERROR - Check constraint 'users_chk_1' is violated.
+2024-12-28 20:26:15 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 20:26:17 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-28 20:26:17 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 4320 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-28 20:26:17 INFO  - The following 1 profile is active: "dev"
+2024-12-28 20:26:17 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-28 20:26:17 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-28 20:26:17 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-28 20:26:17 INFO  - Finished Spring Data repository scanning in 49 ms. Found 5 JPA repository interfaces.
+2024-12-28 20:26:18 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-28 20:26:18 INFO  - Root WebApplicationContext: initialization completed in 1253 ms
+2024-12-28 20:26:18 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-28 20:26:18 INFO  - HHH000026: Second-level cache disabled
+2024-12-28 20:26:18 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-28 20:26:19 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-28 20:26:20 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 20:26:20 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-28 20:26:20 INFO  - LiveReload server is running on port 35729
+2024-12-28 20:26:20 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-28 20:26:20 INFO  - Started InventoryManagmentSystemApplication in 4.136 seconds (process running for 4.548)
+2024-12-28 20:26:42 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-28 20:26:42 INFO  - Completed initialization in 1 ms
+2024-12-28 20:26:42 WARN  - SQL Error: 3819, SQLState: HY000
+2024-12-28 20:26:42 ERROR - Check constraint 'users_chk_1' is violated.
+2024-12-28 20:27:43 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 20:27:46 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-28 20:27:46 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 8568 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-28 20:27:46 INFO  - The following 1 profile is active: "dev"
+2024-12-28 20:27:46 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-28 20:27:46 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-28 20:27:47 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-28 20:27:47 INFO  - Finished Spring Data repository scanning in 47 ms. Found 5 JPA repository interfaces.
+2024-12-28 20:27:48 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-28 20:27:48 INFO  - Root WebApplicationContext: initialization completed in 1292 ms
+2024-12-28 20:27:48 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-28 20:27:48 INFO  - HHH000026: Second-level cache disabled
+2024-12-28 20:27:48 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-28 20:27:49 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-28 20:27:49 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 20:27:50 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-28 20:27:50 INFO  - LiveReload server is running on port 35729
+2024-12-28 20:27:50 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-28 20:27:50 INFO  - Started InventoryManagmentSystemApplication in 4.156 seconds (process running for 4.588)
+2024-12-28 20:28:13 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-28 20:28:13 INFO  - Completed initialization in 2 ms
+2024-12-28 20:28:14 WARN  - SQL Error: 3819, SQLState: HY000
+2024-12-28 20:28:14 ERROR - Check constraint 'users_chk_1' is violated.
+2024-12-28 20:29:22 INFO  - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-12-28 20:29:22 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 20:29:22 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 8568 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-28 20:29:22 INFO  - The following 1 profile is active: "dev"
+2024-12-28 20:29:22 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-28 20:29:22 INFO  - Finished Spring Data repository scanning in 19 ms. Found 5 JPA repository interfaces.
+2024-12-28 20:29:22 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-28 20:29:22 INFO  - Root WebApplicationContext: initialization completed in 323 ms
+2024-12-28 20:29:22 INFO  - HHH000026: Second-level cache disabled
+2024-12-28 20:29:22 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-28 20:29:22 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-28 20:29:22 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 20:29:22 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-28 20:29:23 INFO  - LiveReload server is running on port 35729
+2024-12-28 20:29:23 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-28 20:29:23 INFO  - Started InventoryManagmentSystemApplication in 0.905 seconds (process running for 97.086)
+2024-12-28 20:29:23 INFO  - Condition evaluation unchanged
+2024-12-28 20:32:05 INFO  - Restarting due to 16 class path changes (0 additions, 0 deletions, 16 modifications)
+2024-12-28 20:32:05 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 20:32:05 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 8568 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-28 20:32:05 INFO  - The following 1 profile is active: "dev"
+2024-12-28 20:32:05 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-28 20:32:05 INFO  - Finished Spring Data repository scanning in 21 ms. Found 5 JPA repository interfaces.
+2024-12-28 20:32:05 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-28 20:32:05 INFO  - Root WebApplicationContext: initialization completed in 271 ms
+2024-12-28 20:32:05 INFO  - HHH000026: Second-level cache disabled
+2024-12-28 20:32:05 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-28 20:32:05 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-28 20:32:05 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 20:32:05 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-28 20:32:06 INFO  - LiveReload server is running on port 35729
+2024-12-28 20:32:06 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-28 20:32:06 INFO  - Started InventoryManagmentSystemApplication in 0.793 seconds (process running for 260.046)
+2024-12-28 20:32:06 INFO  - Condition evaluation unchanged
+2024-12-28 20:32:42 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-28 20:32:42 INFO  - Completed initialization in 1 ms
+2024-12-28 20:32:42 WARN  - SQL Error: 3819, SQLState: HY000
+2024-12-28 20:32:42 ERROR - Check constraint 'users_chk_1' is violated.
+2024-12-28 20:33:32 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 20:34:33 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-28 20:34:33 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 12604 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-28 20:34:33 INFO  - The following 1 profile is active: "dev"
+2024-12-28 20:34:33 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-28 20:34:33 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-28 20:34:33 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-28 20:34:33 INFO  - Finished Spring Data repository scanning in 52 ms. Found 5 JPA repository interfaces.
+2024-12-28 20:34:34 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-28 20:34:34 INFO  - Root WebApplicationContext: initialization completed in 1322 ms
+2024-12-28 20:34:34 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-28 20:34:34 INFO  - HHH000026: Second-level cache disabled
+2024-12-28 20:34:34 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-28 20:34:35 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-28 20:34:36 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 20:34:36 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-28 20:34:37 INFO  - LiveReload server is running on port 35729
+2024-12-28 20:34:37 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-28 20:34:37 INFO  - Started InventoryManagmentSystemApplication in 4.696 seconds (process running for 5.129)
+2024-12-28 20:34:41 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-28 20:34:41 INFO  - Completed initialization in 1 ms
+2024-12-28 20:34:57 WARN  - Resolved [gr.aueb.cf.inventorymanagementsystem.core.exceptions.AppObjectAlreadyExists: User with username: johndoe@example.com already exists.]
+2024-12-28 20:35:21 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 20:38:18 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-28 20:38:18 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 23124 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-28 20:38:18 INFO  - The following 1 profile is active: "dev"
+2024-12-28 20:38:18 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-28 20:38:18 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-28 20:38:19 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-28 20:38:19 INFO  - Finished Spring Data repository scanning in 51 ms. Found 5 JPA repository interfaces.
+2024-12-28 20:38:20 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-28 20:38:20 INFO  - Root WebApplicationContext: initialization completed in 1297 ms
+2024-12-28 20:38:20 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-28 20:38:20 INFO  - HHH000026: Second-level cache disabled
+2024-12-28 20:38:20 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-28 20:38:21 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-28 20:38:21 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 20:38:22 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-28 20:38:22 INFO  - LiveReload server is running on port 35729
+2024-12-28 20:38:22 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-28 20:38:22 INFO  - Started InventoryManagmentSystemApplication in 4.17 seconds (process running for 4.638)
+2024-12-28 20:38:26 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-28 20:38:26 INFO  - Completed initialization in 1 ms
+2024-12-28 20:38:26 WARN  - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Invalid mime type "application\json": does not contain '/']
+2024-12-28 20:38:33 WARN  - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Invalid mime type "application\json": does not contain '/']
+2024-12-28 20:40:01 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 20:40:03 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-28 20:40:03 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 9024 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-28 20:40:03 INFO  - The following 1 profile is active: "dev"
+2024-12-28 20:40:03 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-28 20:40:03 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-28 20:40:04 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-28 20:40:04 INFO  - Finished Spring Data repository scanning in 52 ms. Found 5 JPA repository interfaces.
+2024-12-28 20:40:04 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-28 20:40:05 INFO  - Root WebApplicationContext: initialization completed in 1298 ms
+2024-12-28 20:40:05 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-28 20:40:05 INFO  - HHH000026: Second-level cache disabled
+2024-12-28 20:40:05 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-28 20:40:06 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-28 20:40:06 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 20:40:06 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-28 20:40:07 INFO  - LiveReload server is running on port 35729
+2024-12-28 20:40:07 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-28 20:40:07 INFO  - Started InventoryManagmentSystemApplication in 4.355 seconds (process running for 4.8)
+2024-12-28 20:41:17 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 20:41:33 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-28 20:41:33 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 17588 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-28 20:41:33 INFO  - The following 1 profile is active: "dev"
+2024-12-28 20:41:33 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-28 20:41:33 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-28 20:41:33 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-28 20:41:33 INFO  - Finished Spring Data repository scanning in 46 ms. Found 5 JPA repository interfaces.
+2024-12-28 20:41:34 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-28 20:41:34 INFO  - Root WebApplicationContext: initialization completed in 1263 ms
+2024-12-28 20:41:34 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-28 20:41:34 INFO  - HHH000026: Second-level cache disabled
+2024-12-28 20:41:34 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-28 20:41:35 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-28 20:41:35 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 20:41:36 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-28 20:41:37 INFO  - LiveReload server is running on port 35729
+2024-12-28 20:41:37 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-28 20:41:37 INFO  - Started InventoryManagmentSystemApplication in 4.273 seconds (process running for 4.705)
+2024-12-28 20:53:00 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-28 20:53:00 INFO  - Completed initialization in 1 ms
+2024-12-28 21:34:20 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 21:34:22 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-28 21:34:22 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 12480 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-28 21:34:22 INFO  - The following 1 profile is active: "dev"
+2024-12-28 21:34:22 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-28 21:34:22 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-28 21:34:23 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-28 21:34:23 INFO  - Finished Spring Data repository scanning in 52 ms. Found 5 JPA repository interfaces.
+2024-12-28 21:34:24 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-28 21:34:24 INFO  - Root WebApplicationContext: initialization completed in 1359 ms
+2024-12-28 21:34:24 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-28 21:34:24 INFO  - HHH000026: Second-level cache disabled
+2024-12-28 21:34:24 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-28 21:34:26 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-28 21:34:26 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 21:34:26 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-28 21:34:27 INFO  - LiveReload server is running on port 35729
+2024-12-28 21:34:27 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-28 21:34:27 INFO  - Started InventoryManagmentSystemApplication in 4.557 seconds (process running for 5.048)
+2024-12-28 21:36:05 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 21:36:07 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-28 21:36:07 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 13720 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-28 21:36:07 INFO  - The following 1 profile is active: "dev"
+2024-12-28 21:36:07 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-28 21:36:07 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-28 21:36:08 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-28 21:36:08 INFO  - Finished Spring Data repository scanning in 52 ms. Found 5 JPA repository interfaces.
+2024-12-28 21:36:08 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-28 21:36:08 INFO  - Root WebApplicationContext: initialization completed in 1336 ms
+2024-12-28 21:36:09 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-28 21:36:09 INFO  - HHH000026: Second-level cache disabled
+2024-12-28 21:36:09 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-28 21:36:10 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-28 21:36:10 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 21:36:10 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-28 21:36:11 INFO  - LiveReload server is running on port 35729
+2024-12-28 21:36:11 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-28 21:36:11 INFO  - Started InventoryManagmentSystemApplication in 4.214 seconds (process running for 4.704)
+2024-12-28 21:38:17 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-28 21:38:17 INFO  - Completed initialization in 1 ms
+2024-12-28 21:38:17 WARN  - Resolved [gr.aueb.cf.inventorymanagementsystem.core.exceptions.ValidationException: Validation failed]
+2024-12-28 21:43:33 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 21:43:35 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-28 21:43:35 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 20816 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-28 21:43:35 INFO  - The following 1 profile is active: "dev"
+2024-12-28 21:43:35 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-28 21:43:35 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-28 21:43:36 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-28 21:43:36 INFO  - Finished Spring Data repository scanning in 52 ms. Found 5 JPA repository interfaces.
+2024-12-28 21:43:36 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-28 21:43:36 INFO  - Root WebApplicationContext: initialization completed in 1300 ms
+2024-12-28 21:43:36 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-28 21:43:36 INFO  - HHH000026: Second-level cache disabled
+2024-12-28 21:43:37 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-28 21:43:38 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-28 21:43:38 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 21:43:38 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-28 21:43:39 INFO  - LiveReload server is running on port 35729
+2024-12-28 21:43:39 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-28 21:43:39 INFO  - Started InventoryManagmentSystemApplication in 4.297 seconds (process running for 4.699)
+2024-12-28 21:43:57 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-28 21:43:57 INFO  - Completed initialization in 1 ms
+2024-12-28 21:43:57 WARN  - Resolved [gr.aueb.cf.inventorymanagementsystem.core.exceptions.ValidationException: Validation failed]
+2024-12-28 21:46:30 WARN  - Resolved [gr.aueb.cf.inventorymanagementsystem.core.exceptions.ValidationException: Validation failed]
+2024-12-28 21:50:53 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 21:50:55 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-28 21:50:55 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 14088 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-28 21:50:55 INFO  - The following 1 profile is active: "dev"
+2024-12-28 21:50:55 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-28 21:50:55 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-28 21:50:56 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-28 21:50:56 INFO  - Finished Spring Data repository scanning in 57 ms. Found 5 JPA repository interfaces.
+2024-12-28 21:50:56 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-28 21:50:56 INFO  - Root WebApplicationContext: initialization completed in 1276 ms
+2024-12-28 21:50:57 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-28 21:50:57 INFO  - HHH000026: Second-level cache disabled
+2024-12-28 21:50:57 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-28 21:50:58 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-28 21:50:58 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 21:50:58 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-28 21:50:59 INFO  - LiveReload server is running on port 35729
+2024-12-28 21:50:59 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-28 21:50:59 INFO  - Started InventoryManagmentSystemApplication in 4.206 seconds (process running for 4.638)
+2024-12-28 21:51:16 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-28 21:51:16 INFO  - Completed initialization in 1 ms
+2024-12-28 21:51:17 WARN  - Resolved [gr.aueb.cf.inventorymanagementsystem.core.exceptions.AppObjectAlreadyExists: User with username: null already exists.]
+2024-12-28 21:55:16 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 21:55:17 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-28 21:55:17 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 2056 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-28 21:55:17 INFO  - The following 1 profile is active: "dev"
+2024-12-28 21:55:17 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-28 21:55:17 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-28 21:55:18 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-28 21:55:18 INFO  - Finished Spring Data repository scanning in 46 ms. Found 5 JPA repository interfaces.
+2024-12-28 21:55:19 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-28 21:55:19 INFO  - Root WebApplicationContext: initialization completed in 1275 ms
+2024-12-28 21:55:19 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-28 21:55:19 INFO  - HHH000026: Second-level cache disabled
+2024-12-28 21:55:19 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-28 21:55:20 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-28 21:55:20 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 21:55:21 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-28 21:55:21 INFO  - LiveReload server is running on port 35729
+2024-12-28 21:55:21 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-28 21:55:21 INFO  - Started InventoryManagmentSystemApplication in 4.283 seconds (process running for 4.745)
+2024-12-28 21:55:38 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-28 21:55:38 INFO  - Completed initialization in 1 ms
+2024-12-28 22:08:35 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 22:08:38 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-28 22:08:38 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 13180 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-28 22:08:38 INFO  - The following 1 profile is active: "dev"
+2024-12-28 22:08:38 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-28 22:08:38 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-28 22:08:39 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-28 22:08:39 INFO  - Finished Spring Data repository scanning in 64 ms. Found 5 JPA repository interfaces.
+2024-12-28 22:08:40 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-28 22:08:40 INFO  - Root WebApplicationContext: initialization completed in 1388 ms
+2024-12-28 22:08:40 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-28 22:08:40 INFO  - HHH000026: Second-level cache disabled
+2024-12-28 22:08:40 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-28 22:08:41 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-28 22:08:41 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 22:08:42 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-28 22:08:42 INFO  - LiveReload server is running on port 35729
+2024-12-28 22:08:42 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-28 22:08:42 INFO  - Started InventoryManagmentSystemApplication in 4.348 seconds (process running for 4.767)
+2024-12-28 22:13:29 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-28 22:13:29 INFO  - Completed initialization in 1 ms
+2024-12-28 22:24:45 WARN  - ERROR: something went wrong while parsing JWT
+io.jsonwebtoken.MalformedJwtException: JWT strings must contain exactly 2 period characters. Found: 0
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:275)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:529)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:589)
+	at io.jsonwebtoken.impl.ImmutableJwtParser.parseClaimsJws(ImmutableJwtParser.java:173)
+	at gr.aueb.cf.inventorymanagementsystem.security.JwtService.extractAllClaims(JwtService.java:71)
+	at gr.aueb.cf.inventorymanagementsystem.security.JwtService.extractClaim(JwtService.java:54)
+	at gr.aueb.cf.inventorymanagementsystem.security.JwtService.extractSubject(JwtService.java:50)
+	at gr.aueb.cf.inventorymanagementsystem.authentication.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:50)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-12-28 22:32:52 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 22:32:54 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-28 22:32:54 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 20056 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-28 22:32:54 INFO  - The following 1 profile is active: "dev"
+2024-12-28 22:32:54 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-28 22:32:54 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-28 22:32:55 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-28 22:32:55 INFO  - Finished Spring Data repository scanning in 49 ms. Found 5 JPA repository interfaces.
+2024-12-28 22:32:56 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-28 22:32:56 INFO  - Root WebApplicationContext: initialization completed in 1285 ms
+2024-12-28 22:32:56 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-28 22:32:56 INFO  - HHH000026: Second-level cache disabled
+2024-12-28 22:32:56 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-28 22:32:57 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-28 22:32:57 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 22:32:57 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-28 22:32:58 INFO  - LiveReload server is running on port 35729
+2024-12-28 22:32:58 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-28 22:32:58 INFO  - Started InventoryManagmentSystemApplication in 4.347 seconds (process running for 4.788)
+2024-12-28 22:34:39 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 22:34:41 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-28 22:34:41 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 5872 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-28 22:34:41 INFO  - The following 1 profile is active: "dev"
+2024-12-28 22:34:41 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-28 22:34:41 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-28 22:34:42 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-28 22:34:42 INFO  - Finished Spring Data repository scanning in 50 ms. Found 5 JPA repository interfaces.
+2024-12-28 22:34:42 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-28 22:34:42 INFO  - Root WebApplicationContext: initialization completed in 1356 ms
+2024-12-28 22:34:42 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-28 22:34:42 INFO  - HHH000026: Second-level cache disabled
+2024-12-28 22:34:43 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-28 22:34:44 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-28 22:34:44 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 22:34:44 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-28 22:34:45 INFO  - LiveReload server is running on port 35729
+2024-12-28 22:34:45 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-28 22:34:45 INFO  - Started InventoryManagmentSystemApplication in 4.395 seconds (process running for 4.821)
+2024-12-28 22:36:07 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 22:36:09 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-28 22:36:09 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 1476 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-28 22:36:09 INFO  - The following 1 profile is active: "dev"
+2024-12-28 22:36:09 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-28 22:36:09 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-28 22:36:10 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-28 22:36:10 INFO  - Finished Spring Data repository scanning in 49 ms. Found 5 JPA repository interfaces.
+2024-12-28 22:36:10 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-28 22:36:10 INFO  - Root WebApplicationContext: initialization completed in 1282 ms
+2024-12-28 22:36:10 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-28 22:36:10 INFO  - HHH000026: Second-level cache disabled
+2024-12-28 22:36:11 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-28 22:36:12 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-28 22:36:12 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 22:36:12 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-28 22:36:13 INFO  - LiveReload server is running on port 35729
+2024-12-28 22:36:13 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-28 22:36:13 INFO  - Started InventoryManagmentSystemApplication in 4.165 seconds (process running for 4.575)
+2024-12-28 22:49:30 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 22:49:32 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-28 22:49:32 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 15636 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-28 22:49:32 INFO  - The following 1 profile is active: "dev"
+2024-12-28 22:49:32 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-28 22:49:32 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-28 22:49:33 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-28 22:49:33 INFO  - Finished Spring Data repository scanning in 50 ms. Found 5 JPA repository interfaces.
+2024-12-28 22:49:33 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-28 22:49:33 INFO  - Root WebApplicationContext: initialization completed in 1272 ms
+2024-12-28 22:49:33 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-28 22:49:33 INFO  - HHH000026: Second-level cache disabled
+2024-12-28 22:49:34 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-28 22:49:35 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-28 22:49:35 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 22:49:35 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-28 22:49:36 INFO  - LiveReload server is running on port 35729
+2024-12-28 22:49:36 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-28 22:49:36 INFO  - Started InventoryManagmentSystemApplication in 4.188 seconds (process running for 4.605)
+2024-12-28 22:49:37 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 22:58:42 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-28 22:58:42 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 5920 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-28 22:58:42 INFO  - The following 1 profile is active: "dev"
+2024-12-28 22:58:42 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-28 22:58:42 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-28 22:58:43 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-28 22:58:43 INFO  - Finished Spring Data repository scanning in 53 ms. Found 5 JPA repository interfaces.
+2024-12-28 22:58:44 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-28 22:58:44 INFO  - Root WebApplicationContext: initialization completed in 1354 ms
+2024-12-28 22:58:44 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-28 22:58:44 INFO  - HHH000026: Second-level cache disabled
+2024-12-28 22:58:44 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-28 22:58:45 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-28 22:58:45 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 22:58:45 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-28 22:58:46 INFO  - LiveReload server is running on port 35729
+2024-12-28 22:58:46 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-28 22:58:46 INFO  - Started InventoryManagmentSystemApplication in 4.222 seconds (process running for 4.672)
+2024-12-28 23:04:07 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 23:04:09 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-28 23:04:09 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 17852 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-28 23:04:09 INFO  - The following 1 profile is active: "dev"
+2024-12-28 23:04:09 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-28 23:04:09 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-28 23:04:09 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-28 23:04:09 INFO  - Finished Spring Data repository scanning in 52 ms. Found 5 JPA repository interfaces.
+2024-12-28 23:04:10 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-28 23:04:10 INFO  - Root WebApplicationContext: initialization completed in 1326 ms
+2024-12-28 23:04:10 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-28 23:04:10 INFO  - HHH000026: Second-level cache disabled
+2024-12-28 23:04:10 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-28 23:04:11 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-28 23:04:12 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 23:04:12 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-28 23:04:13 INFO  - LiveReload server is running on port 35729
+2024-12-28 23:04:13 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-28 23:04:13 INFO  - Started InventoryManagmentSystemApplication in 4.244 seconds (process running for 4.666)
+2024-12-28 23:16:44 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-28 23:16:44 INFO  - Completed initialization in 1 ms
+2024-12-28 23:16:45 WARN  - Resolved [gr.aueb.cf.inventorymanagementsystem.core.exceptions.AppObjectAlreadyExists: User with username: kwstasvel96@gmail.com already exists.]
+2024-12-28 23:32:39 WARN  - ERROR: something went wrong while parsing JWT
+io.jsonwebtoken.MalformedJwtException: JWT strings must contain exactly 2 period characters. Found: 0
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:275)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:529)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:589)
+	at io.jsonwebtoken.impl.ImmutableJwtParser.parseClaimsJws(ImmutableJwtParser.java:173)
+	at gr.aueb.cf.inventorymanagementsystem.security.JwtService.extractAllClaims(JwtService.java:71)
+	at gr.aueb.cf.inventorymanagementsystem.security.JwtService.extractClaim(JwtService.java:54)
+	at gr.aueb.cf.inventorymanagementsystem.security.JwtService.extractSubject(JwtService.java:50)
+	at gr.aueb.cf.inventorymanagementsystem.authentication.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:50)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-12-28 23:44:30 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 23:44:32 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-28 23:44:32 INFO  - Starting InventoryManagmentSystemApplication using Java 17.0.10 with PID 20136 (C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system\build\classes\java\main started by BEL96 in C:\Users\kwsta\Desktop\staff\PROGRAMMING\Coding Factory\Inventory Management System\Back-end\inventory-managment-system)
+2024-12-28 23:44:32 INFO  - The following 1 profile is active: "dev"
+2024-12-28 23:44:32 INFO  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-28 23:44:32 INFO  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-28 23:44:33 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-28 23:44:33 INFO  - Finished Spring Data repository scanning in 53 ms. Found 5 JPA repository interfaces.
+2024-12-28 23:44:34 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-28 23:44:34 INFO  - Root WebApplicationContext: initialization completed in 1338 ms
+2024-12-28 23:44:34 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-28 23:44:34 INFO  - HHH000026: Second-level cache disabled
+2024-12-28 23:44:34 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-28 23:44:35 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-28 23:44:35 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-28 23:44:36 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-12-28 23:44:36 INFO  - LiveReload server is running on port 35729
+2024-12-28 23:44:36 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-28 23:44:36 INFO  - Started InventoryManagmentSystemApplication in 4.435 seconds (process running for 4.859)
+2024-12-28 23:47:21 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-28 23:47:21 INFO  - Completed initialization in 1 ms

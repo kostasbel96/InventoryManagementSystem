@@ -1,0 +1,66 @@
+
+<div class="container-fluid vh-100 p-0">
+  <div class="d-flex flex-column h-100">
+    <div class="d-flex flex-row h-100">
+      <!-- Sidebar Menu -->
+      <div class="bg-secondary border-end d-none d-md-block" style="width: 250px;">
+        <div class="p-3 text-center">
+          <a routerLink="welcome"><img src="../assets/logo.png" alt="Logo" class="logo" width="100"></a>
+        </div>
+        <app-list-group-menu></app-list-group-menu>
+        <div class="m-5 d-flex text-center justify-content-center">
+          <div *ngIf="!isLoggedIn()">
+            <a routerLink="/login" class="btn btn-secondary p-2 display-6">
+              Login
+              <img width="50px" src="../assets/login.png">
+            </a>
+          </div>
+          
+          <div *ngIf="isLoggedIn()">
+            <a (click)="logout()" class="btn btn-secondary p-2 display-6">
+              Logout
+              <img width="50px" src="../assets/logout.png">
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Offcanvas Sidebar for Small Screens -->
+      <div class="d-md-none">
+        <button class="btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu">
+          Menu
+        </button>
+        <div class="offcanvas offcanvas-start bg-secondary" id="sidebarMenu" tabindex="-1" aria-labelledby="sidebarMenuLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="sidebarMenuLabel">Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="text-center mb-3">
+              <a routerLink="welcome"><img src="../assets/logo.png" alt="Logo" class="logo" width="100"></a>
+            </div>
+            <app-list-group-menu></app-list-group-menu>
+            <div class="m-5 d-flex text-center justify-content-center">
+              <div *ngIf="!isLoggedIn()">
+                <a routerLink="/login" class="btn btn-secondary p-2 display-6">
+                  Login
+                  <img width="50px" src="../assets/login.png">
+                </a>
+              </div>
+              
+              <div *ngIf="isLoggedIn()">
+                <a (click)="logout()" class="btn btn-danger p-2 display-6">
+                  Logout
+                  <img width="50px" src="../assets/logout.png">
+                </a>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <!-- Main Content Area -->
+      <div class="flex-grow-1 p-3">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+</div>
