@@ -32,6 +32,15 @@ Before starting, make sure you have the following installed:
 
 ## ⚙️ How to Run the Application
 
+🛢️ Database Configuration
+
+The application uses MySQL for storing data. Update the application.properties or application-dev.properties file in the backend directory with your database details:
+
+
+      spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+      spring.datasource.username=your_username
+      spring.datasource.password=your_password
+
 ### Backend (Spring Boot)
 1. Navigate to the backend directory:
    ```bash
@@ -64,14 +73,7 @@ Run the frontend:
 
 Open the application in your browser at http://localhost:4200.
 
-🛢️ Database Configuration
 
-The application uses MySQL for storing data. Update the application.properties or application-dev.properties file in the backend directory with your database details:
-
-
-spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name
-spring.datasource.username=your_username
-spring.datasource.password=your_password
 
 🖥️ Deployment
 Backend Deployment
