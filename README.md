@@ -37,17 +37,13 @@ Before starting, make sure you have the following installed:
 ### Backend (Spring Boot)
 1. Navigate to the backend directory:
    ```bash
-   cd Back-end/
+   cd Back-end/inventory-managment-system
 
     Build the backend using Gradle:
 
-Να εμφανίζονται πάντα οι λεπτομέρειες
-
-./gradlew build
+   ./gradlew build
 
 Run the backend:
-
-Να εμφανίζονται πάντα οι λεπτομέρειες
 
     java -jar build/libs/inventory-managment-system-0.0.1-SNAPSHOT.jar
 
@@ -57,19 +53,14 @@ Frontend (Angular)
 
     Navigate to the frontend directory:
 
-Να εμφανίζονται πάντα οι λεπτομέρειες
 
-cd Front-end_v16/
+cd Front-end_v16/InventoryMangmentSystem
 
 Install dependencies:
-
-Να εμφανίζονται πάντα οι λεπτομέρειες
 
 npm install
 
 Run the frontend:
-
-Να εμφανίζονται πάντα οι λεπτομέρειες
 
     ng serve
 
@@ -79,7 +70,6 @@ Run the frontend:
 
 The application uses MySQL for storing data. Update the application.properties or application-dev.properties file in the backend directory with your database details:
 
-Να εμφανίζονται πάντα οι λεπτομέρειες
 
 spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name
 spring.datasource.username=your_username
@@ -95,15 +85,11 @@ Frontend Deployment
 
     Build the Angular application:
 
-Να εμφανίζονται πάντα οι λεπτομέρειες
-
     ng build --prod
 
     Host the contents of the dist/ folder on a web server (e.g., Nginx, Apache).
 
 📂 Project Structure
-
-Να εμφανίζονται πάντα οι λεπτομέρειες
 
 InventoryManagementSystem/
 ├── Back-end/                # Spring Boot backend
@@ -116,12 +102,7 @@ InventoryManagementSystem/
 │   └── package.json         # Node.js dependencies
 └── README.md                # Project documentation
 
-🤝 Contributing
-
-Contributions are welcome! Please fork this repository, make your changes, and submit a pull request.
 📄 License
 
 This project is licensed under the MIT License. See the LICENSE file for more details. """
-Save the content to a file
 
-file_path = "/mnt/data/README.md" with open(file_path, "w") as file: file.write(readme_content)
