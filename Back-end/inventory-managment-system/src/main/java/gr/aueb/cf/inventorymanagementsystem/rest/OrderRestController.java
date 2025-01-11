@@ -7,6 +7,11 @@ import gr.aueb.cf.inventorymanagementsystem.dto.*;
 import gr.aueb.cf.inventorymanagementsystem.mapper.Mapper;
 import gr.aueb.cf.inventorymanagementsystem.service.OrderService;
 import gr.aueb.cf.inventorymanagementsystem.service.ProductService;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.media.Content;
+import io.swagger.v3.oas.annotations.media.Schema;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
@@ -32,6 +37,25 @@ public class OrderRestController {
     private final Mapper mapper;
 
     @GetMapping("/orders")
+    @Operation(
+            summary = "Get paginated orders",
+            description = "Fetches a paginated list of orders. Allows specifying page number and page size."
+    )
+    @ApiResponses(value = {
+            @ApiResponse(
+                    responseCode = "200",
+                    description = "Orders retrieved successfully",
+                    content = @Content(
+                            mediaType = "application/json",
+                            schema = @Schema(implementation = Page.class) // Page<OrderReadOnlyDTO> schema
+                    )
+            ),
+            @ApiResponse(
+                    responseCode = "400",
+                    description = "Invalid request parameters",
+                    content = @Content
+            )
+    })
     public ResponseEntity<Page<OrderReadOnlyDTO>> getPaginatedOrders(
             @RequestParam(defaultValue = "0") int page,
             @RequestParam(defaultValue = "5") int size) {
@@ -41,6 +65,25 @@ public class OrderRestController {
     }
 
     @GetMapping("/orders/{orderId}")
+    @Operation(
+            summary = "Get order by ID",
+            description = "Fetches a specific order by its unique ID."
+    )
+    @ApiResponses(value = {
+            @ApiResponse(
+                    responseCode = "200",
+                    description = "Order retrieved successfully",
+                    content = @Content(
+                            mediaType = "application/json",
+                            schema = @Schema(implementation = OrderReadOnlyDTO.class)
+                    )
+            ),
+            @ApiResponse(
+                    responseCode = "404",
+                    description = "Order not found",
+                    content = @Content
+            )
+    })
     public ResponseEntity<OrderReadOnlyDTO> getOrder(
             @PathVariable Long orderId) throws AppObjectNotFoundException {
 
@@ -48,10 +91,36 @@ public class OrderRestController {
         return new ResponseEntity<>(order, HttpStatus.OK);
     }
 
-    /**
-     * Ενημέρωση μιας παραγγελίας
-     */
     @PutMapping("/orders/{orderId}")
+    @Operation(
+            summary = "Update an order",
+            description = "Updates the details of an existing order using the provided order ID and data."
+    )
+    @ApiResponses(value = {
+            @ApiResponse(
+                    responseCode = "200",
+                    description = "Order updated successfully",
+                    content = @Content(
+                            mediaType = "application/json",
+                            schema = @Schema(implementation = OrderReadOnlyDTO.class)
+                    )
+            ),
+            @ApiResponse(
+                    responseCode = "400",
+                    description = "Invalid request data",
+                    content = @Content
+            ),
+            @ApiResponse(
+                    responseCode = "404",
+                    description = "Order not found",
+                    content = @Content
+            ),
+            @ApiResponse(
+                    responseCode = "500",
+                    description = "Internal server error",
+                    content = @Content
+            )
+    })
     public ResponseEntity<OrderReadOnlyDTO> updateOrder(
             @PathVariable Long orderId,
             @RequestBody OrderUpdateDTO orderUpdateDTO
@@ -66,6 +135,35 @@ public class OrderRestController {
     }
 
     @PostMapping("/orders/all")
+    @Operation(
+            summary = "Get filtered paginated orders",
+            description = "Fetches a paginated list of orders based on provided filters. Supports optional filtering and pagination."
+    )
+    @ApiResponses(value = {
+            @ApiResponse(
+                    responseCode = "200",
+                    description = "Orders retrieved successfully",
+                    content = @Content(
+                            mediaType = "application/json",
+                            schema = @Schema(implementation = Page.class) // Page<OrderReadOnlyDTO> schema
+                    )
+            ),
+            @ApiResponse(
+                    responseCode = "400",
+                    description = "Invalid request data",
+                    content = @Content
+            ),
+            @ApiResponse(
+                    responseCode = "404",
+                    description = "Orders not found",
+                    content = @Content
+            ),
+            @ApiResponse(
+                    responseCode = "401",
+                    description = "Unauthorized access",
+                    content = @Content
+            )
+    })
     public ResponseEntity<Page<OrderReadOnlyDTO>> getOrders(@Nullable @RequestBody OrderFilters filters,
                                                                 @RequestParam(defaultValue = "0") int page,
                                                                 @RequestParam(defaultValue = "5") int size,
@@ -82,6 +180,40 @@ public class OrderRestController {
     }
 
     @PostMapping(value = "/orders/save")
+    @Operation(
+            summary = "Save a new order",
+            description = "Creates and saves a new order in the system. Validates the provided order details."
+    )
+    @ApiResponses(value = {
+            @ApiResponse(
+                    responseCode = "200",
+                    description = "Order saved successfully",
+                    content = @Content(
+                            mediaType = "application/json",
+                            schema = @Schema(implementation = OrderReadOnlyDTO.class)
+                    )
+            ),
+            @ApiResponse(
+                    responseCode = "400",
+                    description = "Validation errors occurred",
+                    content = @Content
+            ),
+            @ApiResponse(
+                    responseCode = "409",
+                    description = "Order already exists",
+                    content = @Content
+            ),
+            @ApiResponse(
+                    responseCode = "404",
+                    description = "Related object not found",
+                    content = @Content
+            ),
+            @ApiResponse(
+                    responseCode = "500",
+                    description = "Internal server error",
+                    content = @Content
+            )
+    })
     public ResponseEntity<OrderReadOnlyDTO> saveOrder(
             @Valid @RequestBody OrderInsertDTO orderInsertDTO,
             BindingResult bindingResult)
@@ -99,6 +231,30 @@ public class OrderRestController {
     }
 
     @DeleteMapping("/orders/{orderId}")
+    @Operation(
+            summary = "Delete an order by ID",
+            description = "Deletes an existing order based on its unique ID. Returns the details of the deleted order."
+    )
+    @ApiResponses(value = {
+            @ApiResponse(
+                    responseCode = "200",
+                    description = "Order deleted successfully",
+                    content = @Content(
+                            mediaType = "application/json",
+                            schema = @Schema(implementation = OrderReadOnlyDTO.class)
+                    )
+            ),
+            @ApiResponse(
+                    responseCode = "404",
+                    description = "Order not found",
+                    content = @Content
+            ),
+            @ApiResponse(
+                    responseCode = "500",
+                    description = "Internal server error",
+                    content = @Content
+            )
+    })
     public ResponseEntity<OrderReadOnlyDTO> deleteOrder(@PathVariable Long orderId) throws AppObjectNotFoundException {
         // Κλήση της μεθόδου deleteOrder στο Service
         OrderReadOnlyDTO deletedOrder = orderService.deleteOrder(orderId);
