@@ -37,15 +37,15 @@ Before starting, make sure you have the following installed:
    ```bash
    cd Back-end/inventory-managment-system
 
-    Build the backend using Gradle:
+Build the backend using Gradle:
 
-   ./gradlew build
+      ./gradlew build
 
 Run the backend:
 
     java -jar build/libs/inventory-managment-system-0.0.1-SNAPSHOT.jar
 
-    Ensure that your MySQL database is running and configured as per the application.properties or application-dev.properties files.
+Ensure that your MySQL database is running and configured as per the application.properties or application-dev.properties files.
 
 Frontend (Angular)
 
@@ -62,7 +62,7 @@ Run the frontend:
 
     ng serve
 
-    Open the application in your browser at http://localhost:4200.
+Open the application in your browser at http://localhost:4200.
 
 🛢️ Database Configuration
 
