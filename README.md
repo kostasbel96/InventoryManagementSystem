@@ -91,15 +91,15 @@ Frontend Deployment
 
 📂 Project Structure
 
-InventoryManagementSystem
-├── Back-end/                # Spring Boot backend
-│   ├── src/                 # Java source code
-│   ├── build.gradle         # Gradle build file
-│   └── application.properties
-├── Front-end_v16/           # Angular frontend
-│   ├── src/                 # Angular source code
-│   ├── angular.json         # Angular configuration
-│   └── package.json         # Node.js dependencies
-└── README.md                # Project documentation
+InventoryManagementSystem/
+      ├── Back-end/                # Spring Boot backend
+      │   ├── src/                 # Java source code
+      │   ├── build.gradle         # Gradle build file
+      │   └── application.properties
+      ├── Front-end_v16/           # Angular frontend
+      │   ├── src/                 # Angular source code
+      │   ├── angular.json         # Angular configuration
+      │   └── package.json         # Node.js dependencies
+      └── README.md                # Project documentation
 
 
