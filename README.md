@@ -78,28 +78,16 @@ Open the application in your browser at http://localhost:4200.
 🖥️ Deployment
 Backend Deployment
 
-    Deploy the generated .jar file to your server.
-    Make sure the database is properly configured and accessible.
+      Deploy the generated .jar file to your server.
+      Make sure the database is properly configured and accessible.
 
 Frontend Deployment
 
-    Build the Angular application:
+Build the Angular application:
 
     ng build --prod
 
-    Host the contents of the dist/ folder on a web server (e.g., Nginx, Apache).
+      Host the contents of the dist/ folder on a web server (e.g., Nginx, Apache).
 
-📂 Project Structure
-
-InventoryManagementSystem/
-├── Back-end/                # Spring Boot backend
-│   ├── src/                 # Java source code
-│   ├── build.gradle         # Gradle build file
-│   └── application.properties
-├── Front-end_v16/           # Angular frontend
-│   ├── src/                 # Angular source code
-│   ├── angular.json         # Angular configuration
-│   └── package.json         # Node.js dependencies
-└── README.md                # Project documentation
 
 
