@@ -5,6 +5,7 @@ import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.security.Keys;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
@@ -17,7 +18,8 @@ import java.util.function.Function;
 public class JwtService {
 
     //    Strong security 384-bits = 48 bytes = 64 Base64URL characters
-    private String secretKey = "W753EbqFsKNHsOlXdea4prWPhgYXDQiDdNjjj+zdGWk=";
+    @Value("${application.security.jwt.secret-key}")
+    private String secretKey;
     private long jwtExpiration = 10800000;  // 3 hours in milliseconds
 
 //    if use refresh expiration token

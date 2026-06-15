@@ -55,7 +55,7 @@ export class OrdersComponent {
         }
       })
     }
-    
+
   }
 
   getTotalAmount(id: number){
@@ -101,10 +101,8 @@ export class OrdersComponent {
     if (page >= 0 && page < this.totalPages) {
       this.currentPage = page;
       if (this.supplierName && this.supplierName.trim() !== '') {
-        // Αν υπάρχει όνομα προϊόντος, κάντε αναζήτηση
         this.getBySupplierName(this.supplierName, this.currentPage);
       } else {
-        // Αν όχι, φορτώστε γενικά προϊόντα
         this.loadOrders(page);
       }
     }
