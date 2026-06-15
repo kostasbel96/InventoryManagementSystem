@@ -40,6 +40,7 @@ The application uses MySQL for storing data. Update the application.properties o
       spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
       spring.datasource.username=your_username
       spring.datasource.password=your_password
+      application.security.jwt.secret-key=your_jwt_key 
 
 ### Backend (Spring Boot)
 1. Navigate to the backend directory:
